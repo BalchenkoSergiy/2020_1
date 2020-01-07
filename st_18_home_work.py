@@ -3,10 +3,7 @@
 [1, 2, 3] --> [2, 4, 6]
 """
 my_list = [1, 2, 3]
-result_list = []
-for i in my_list:
-    i = i * 2
-    result_list.append(i)
+result_list = [i*2 for i in my_list]
 
 print('Task 1 --->', result_list)
 
