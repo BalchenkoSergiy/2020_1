@@ -125,3 +125,16 @@ age = 30
 # print(f'My name is {name}. I\'m {age}') # самый новый и правильный вариант использования форматирования.
 
 # print(f'My name is {name}. I\'m {age + 5}') #еще варианты использования
+#
+# Обьединяем элементы списка в строку, с пормощью метода Join
+my_list = list(range(1, 10))
+my_list_two = list('Hello')
+
+print(my_list, my_list_two) #[1, 2, 3, 4, 5, 6, 7, 8, 9] ['H', 'e', 'l', 'l', 'o']
+
+s = '-'.join(map(str, my_list))# Map: применяем функцию str для каждого эдемента из my_list
+print(s) # 1-2-3-4-5-6-7-8-9
+
+s_two = ','.join(my_list_two)# join: для каждого эдемента из my_list_two рязделяем запятой и обьединяем в строку
+print(s_two) #H,e,l,l,o
+
