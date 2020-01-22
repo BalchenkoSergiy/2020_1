@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root format="1.2">
+  <Template><DocumentTemplateDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateDS.xsd"><DocumentTemplate><DocumentTemplateID>55</DocumentTemplateID><DocumentTemplateName>Температурний лист 2</DocumentTemplateName><DocumentTemplateDesc /><DocumentTemplateCreationDate>2020-01-22T12:43:07.153+02:00</DocumentTemplateCreationDate><DocumentTemplateCurrentVersionRef>56</DocumentTemplateCurrentVersionRef><DocumentKindRef>URL</DocumentKindRef><DocumentTemplateStaticID>55</DocumentTemplateStaticID><DocumentTemplateIsLocked>false</DocumentTemplateIsLocked><DocumentTemplateULC>alex.klimov</DocumentTemplateULC><DocumentTemplateDLC>2020-01-22T12:43:07.153+02:00</DocumentTemplateDLC><DocumentTemplateSettingXML>&lt;CommonSettings&gt;&lt;UseStandartRendering&gt;true&lt;/UseStandartRendering&gt;&lt;CourseKindList /&gt;&lt;ScheduleStatusList /&gt;&lt;/CommonSettings&gt;</DocumentTemplateSettingXML><DocumentTemplateFolderRef>URL</DocumentTemplateFolderRef><DocumentTemplateCanCreateDocument>true</DocumentTemplateCanCreateDocument><DocumentTemplateHasACL>false</DocumentTemplateHasACL><DocumentTemplateStaticGUID>7a9194fc-d48f-4024-b9ad-11673c60e18d</DocumentTemplateStaticGUID><CanCreateDocument>1</CanCreateDocument><CanEditTemplate>1</CanEditTemplate><UniqueNumber>47</UniqueNumber></DocumentTemplate></DocumentTemplateDS><documentKind><code xml="White">URL</code><name>Урологія</name></documentKind><documentFolder><code>URL</code><name>Урологія</name></documentFolder></Template>
+  <Version>
+    <DocumentTemplateVersionDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateVersionDS.xsd">
+      <DocumentTemplateVersion>
+        <DocumentTemplateVersionID>56</DocumentTemplateVersionID>
+        <DocumentTemplateRef>55</DocumentTemplateRef>
+        <DocumentTemplateVersionCreationDate>2020-01-22T12:43:07.153+02:00</DocumentTemplateVersionCreationDate>
+        <CacheTimeStamp>AAAAAAAZhpE=</CacheTimeStamp>
+        <DocumentTemplateVersionULC>alex.klimov</DocumentTemplateVersionULC>
+        <DocumentTemplateVersionDLC>2020-01-22T12:43:07.243+02:00</DocumentTemplateVersionDLC>
+        <DocumentTemplateVersionIsLocked>false</DocumentTemplateVersionIsLocked>
+        <DocumentTemplateVersionSettingXML>&lt;DocumentTemplateSetting&gt;&lt;Language&gt;Ukrainian&lt;/Language&gt;&lt;FormatVersion&gt;1.2&lt;/FormatVersion&gt;&lt;PaperFormat&gt;A4&lt;/PaperFormat&gt;&lt;CustomPageWidth&gt;800&lt;/CustomPageWidth&gt;&lt;LeftIndent&gt;10&lt;/LeftIndent&gt;&lt;RightIndent&gt;10&lt;/RightIndent&gt;&lt;CanEditAndPrint&gt;true&lt;/CanEditAndPrint&gt;&lt;CanDelete&gt;true&lt;/CanDelete&gt;&lt;Styles&gt;&lt;Style&gt;&lt;Type&gt;Normal&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;9.75&lt;/Size&gt;&lt;Style&gt;Regular&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H5&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;9.75&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H4&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;12&lt;/Size&gt;&lt;Style&gt;Regular&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H3&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;12&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H2&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;14&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H1&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;16&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;/Styles&gt;&lt;NormMarkType&gt;1&lt;/NormMarkType&gt;&lt;Presentations /&gt;&lt;AvailablePresentationsList /&gt;&lt;PresentationForRoleList /&gt;&lt;CreationUser&gt;alex.klimov&lt;/CreationUser&gt;&lt;CreationDate&gt;2020-01-22T12:43:07.1675375+02:00&lt;/CreationDate&gt;&lt;/DocumentTemplateSetting&gt;</DocumentTemplateVersionSettingXML>
+        <DocumentTemplateVersionStaticGuid>962be865-08c5-411c-9e40-7eb431852d1a</DocumentTemplateVersionStaticGuid>
+        <UniqueNumber>1</UniqueNumber>
+      </DocumentTemplateVersion>
+    </DocumentTemplateVersionDS>
+  </Version>
+  <Nodes>
+    <DocumentTemplateNodeDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateNodeDS.xsd">
+      <DTN>
+        <DTNID>30921</DTNID>
+        <DTNTypeRef>ROT</DTNTypeRef>
+        <DTVersionRef>56</DTVersionRef>
+        <DTNName>MainRoot</DTNName>
+        <DTNStaticID>30921</DTNStaticID>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>3c214b27-76f5-438b-9797-e29664f7b821</DTNStaticGUID>
+        <UniqueNumber>1</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>30922</DTNID>
+        <DTNParentRef>30921</DTNParentRef>
+        <DTNTypeRef>ROT</DTNTypeRef>
+        <DTVersionRef>56</DTVersionRef>
+        <DTNName>Основне представлення</DTNName>
+        <DTNStaticID>30922</DTNStaticID>
+        <DTNSettingXML>&lt;SROT&gt;&lt;IsMainPresentation&gt;true&lt;/IsMainPresentation&gt;&lt;/SROT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>66a10104-b0e2-418d-847e-b35f941e30a1</DTNStaticGUID>
+        <UniqueNumber>2</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>30923</DTNID>
+        <DTNParentRef>30922</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>56</DTVersionRef>
+        <DTNStaticID>30923</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT /&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Заголовок документу</DTNCaption>
+        <DTNStaticGUID>704529af-109c-4ad6-81a1-78fc1a9ffd16</DTNStaticGUID>
+        <UniqueNumber>3</UniqueNumber>
+      </DTN>
+    </DocumentTemplateNodeDS>
+  </Nodes>
+  <statistic-nodes>
+    <StatisticNodeDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\StatisticNodeDS.xsd" />
+  </statistic-nodes>
+  <references>
+    <ReferenceDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\ReferenceDS.xsd" />
+  </references>
+  <sequences>
+    <SequenceDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\SequenceDS.xsd" />
+  </sequences>
+</root>
