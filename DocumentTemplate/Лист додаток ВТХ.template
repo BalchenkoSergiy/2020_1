@@ -1,0 +1,3157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root format="1.2">
+  <Template><DocumentTemplateDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateDS.xsd"><DocumentTemplate><DocumentTemplateID>48</DocumentTemplateID><DocumentTemplateName>Лист додаток ВТХ</DocumentTemplateName><DocumentTemplateDesc /><DocumentTemplateCreationDate>2020-01-20T17:55:09.243+02:00</DocumentTemplateCreationDate><DocumentTemplateCurrentVersionRef>49</DocumentTemplateCurrentVersionRef><DocumentKindRef>TRH</DocumentKindRef><DocumentTemplateStaticID>48</DocumentTemplateStaticID><DocumentTemplateIsLocked>false</DocumentTemplateIsLocked><DocumentTemplateULC>s_bal</DocumentTemplateULC><DocumentTemplateDLC>2020-01-20T17:55:09.243+02:00</DocumentTemplateDLC><DocumentTemplateSettingXML>&lt;CommonSettings&gt;&lt;UseStandartRendering&gt;true&lt;/UseStandartRendering&gt;&lt;CourseKindList /&gt;&lt;ScheduleStatusList /&gt;&lt;/CommonSettings&gt;</DocumentTemplateSettingXML><DocumentTemplateFolderRef>TOH</DocumentTemplateFolderRef><DocumentTemplateCanCreateDocument>true</DocumentTemplateCanCreateDocument><DocumentTemplateHasACL>false</DocumentTemplateHasACL><DocumentTemplateStaticGUID>0444d184-35bb-4627-b8c2-eae40e66b264</DocumentTemplateStaticGUID><CanCreateDocument>1</CanCreateDocument><CanEditTemplate>1</CanEditTemplate><UniqueNumber>1</UniqueNumber></DocumentTemplate></DocumentTemplateDS><documentKind><code xml="White">TRH</code><name>Торакальна хірургія</name></documentKind><documentFolder><code>TOH</code><name>Торакальна хірургія</name></documentFolder></Template>
+  <Version>
+    <DocumentTemplateVersionDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateVersionDS.xsd">
+      <DocumentTemplateVersion>
+        <DocumentTemplateVersionID>49</DocumentTemplateVersionID>
+        <DocumentTemplateRef>48</DocumentTemplateRef>
+        <DocumentTemplateVersionCreationDate>2020-01-20T17:55:09.243+02:00</DocumentTemplateVersionCreationDate>
+        <CacheTimeStamp>AAAAAAAZfqc=</CacheTimeStamp>
+        <DocumentTemplateVersionULC>s_bal</DocumentTemplateVersionULC>
+        <DocumentTemplateVersionDLC>2020-01-20T18:50:35.54+02:00</DocumentTemplateVersionDLC>
+        <DocumentTemplateVersionIsLocked>false</DocumentTemplateVersionIsLocked>
+        <DocumentTemplateVersionSettingXML>&lt;DocumentTemplateSetting&gt;&lt;Language&gt;Ukrainian&lt;/Language&gt;&lt;FormatVersion&gt;1.2&lt;/FormatVersion&gt;&lt;PaperFormat&gt;A4&lt;/PaperFormat&gt;&lt;CustomPageWidth&gt;800&lt;/CustomPageWidth&gt;&lt;LeftIndent&gt;10&lt;/LeftIndent&gt;&lt;RightIndent&gt;10&lt;/RightIndent&gt;&lt;CanEditAndPrint&gt;true&lt;/CanEditAndPrint&gt;&lt;CanDelete&gt;true&lt;/CanDelete&gt;&lt;Styles&gt;&lt;Style&gt;&lt;Type&gt;Normal&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;9.75&lt;/Size&gt;&lt;Style&gt;Regular&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H5&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;9.75&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H4&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;12&lt;/Size&gt;&lt;Style&gt;Regular&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H3&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;12&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H2&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;14&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;Style&gt;&lt;Type&gt;H1&lt;/Type&gt;&lt;BackColor&gt;&lt;ARGB&gt;16777215&lt;/ARGB&gt;&lt;/BackColor&gt;&lt;ForeColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/ForeColor&gt;&lt;Font&gt;&lt;Name&gt;Tahoma&lt;/Name&gt;&lt;Size&gt;16&lt;/Size&gt;&lt;Style&gt;Bold&lt;/Style&gt;&lt;/Font&gt;&lt;/Style&gt;&lt;/Styles&gt;&lt;NormMarkType&gt;1&lt;/NormMarkType&gt;&lt;Presentations /&gt;&lt;AvailablePresentationsList /&gt;&lt;PresentationForRoleList /&gt;&lt;CreationUser&gt;s_bal&lt;/CreationUser&gt;&lt;CreationDate&gt;2020-01-20T17:55:09.2646689+02:00&lt;/CreationDate&gt;&lt;/DocumentTemplateSetting&gt;</DocumentTemplateVersionSettingXML>
+        <DocumentTemplateVersionStaticGuid>a882d432-4e70-404f-b7a6-faf4cd39e6da</DocumentTemplateVersionStaticGuid>
+        <UniqueNumber>1</UniqueNumber>
+      </DocumentTemplateVersion>
+    </DocumentTemplateVersionDS>
+  </Version>
+  <Nodes>
+    <DocumentTemplateNodeDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\DocumentTemplateNodeDS.xsd">
+      <DTN>
+        <DTNID>27436</DTNID>
+        <DTNTypeRef>ROT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNName>MainRoot</DTNName>
+        <DTNStaticID>27436</DTNStaticID>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>31d1d189-4df4-4724-8773-cee831686289</DTNStaticGUID>
+        <UniqueNumber>1</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27437</DTNID>
+        <DTNParentRef>27436</DTNParentRef>
+        <DTNTypeRef>ROT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNName>Основне представлення</DTNName>
+        <DTNStaticID>27437</DTNStaticID>
+        <DTNSettingXML>&lt;SROT&gt;&lt;IsMainPresentation&gt;true&lt;/IsMainPresentation&gt;&lt;/SROT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>dc0a0185-8d64-4e4e-87c4-551968cb81bc</DTNStaticGUID>
+        <UniqueNumber>2</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27439</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27439</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;Width&gt;4&lt;/Width&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;2&lt;/RowCount&gt;&lt;ColumnCount&gt;4&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>5caa2762-ec92-442c-98c1-7deb49b807b6</DTNStaticGUID>
+        <UniqueNumber>3</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27445</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27445</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;2&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;375&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;375&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>7e1cfa54-4bc4-44f8-9fa0-e9288d338056</DTNStaticGUID>
+        <UniqueNumber>4</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27451</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27451</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;4&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;0&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNStaticGUID>49604155-bb1a-45f0-bb76-3e4b066396ec</DTNStaticGUID>
+        <UniqueNumber>5</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27458</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27458</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;2&lt;/RowCount&gt;&lt;ColumnCount&gt;4&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;1&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>3</DTNOrder>
+        <DTNStaticGUID>9ca77721-d33d-4385-af0d-4baee5692f46</DTNStaticGUID>
+        <UniqueNumber>6</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27464</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27464</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;2&lt;/RowCount&gt;&lt;ColumnCount&gt;4&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;1&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNStaticGUID>136ffbfc-c22b-4411-8a0e-7bba46e3a744</DTNStaticGUID>
+        <UniqueNumber>7</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27470</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27470</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;2&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;3&lt;/Col&gt;&lt;Row&gt;1&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;2&lt;/RowCount&gt;&lt;ColumnCount&gt;4&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;275&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;1&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNStaticGUID>bc7d33b6-4d63-4bab-b54b-be91b1296b96</DTNStaticGUID>
+        <UniqueNumber>8</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27476</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27476</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;1&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;750&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNStaticGUID>646209e4-dd8e-4d8f-bedd-560d0f29d77c</DTNStaticGUID>
+        <UniqueNumber>9</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27478</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27478</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;2&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;650&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNStaticGUID>a017a808-8c6b-4b2a-b24a-859528d1830c</DTNStaticGUID>
+        <UniqueNumber>10</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27481</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27481</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;2&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;650&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;0&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>8</DTNOrder>
+        <DTNStaticGUID>b0e817dd-b16c-4d7d-91ed-a031dd985c71</DTNStaticGUID>
+        <UniqueNumber>11</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27484</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27484</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;1&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;750&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>9</DTNOrder>
+        <DTNStaticGUID>070637b7-3d26-4f85-9af7-065e2e71b622</DTNStaticGUID>
+        <UniqueNumber>12</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27486</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27486</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;2&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;650&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;0&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>10</DTNOrder>
+        <DTNStaticGUID>884f7ca8-09e4-46a9-8208-42d43db006de</DTNStaticGUID>
+        <UniqueNumber>13</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27489</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27489</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;1&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;750&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes /&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>11</DTNOrder>
+        <DTNStaticGUID>da8e4945-0b5b-4589-a706-03d7e4562ee9</DTNStaticGUID>
+        <UniqueNumber>14</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27491</DTNID>
+        <DTNParentRef>27494</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27491</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STBL&gt;&lt;Cells&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;0&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;StaticTableCellData&gt;&lt;Col&gt;1&lt;/Col&gt;&lt;Row&gt;0&lt;/Row&gt;&lt;/StaticTableCellData&gt;&lt;/Cells&gt;&lt;RowCount&gt;1&lt;/RowCount&gt;&lt;ColumnCount&gt;2&lt;/ColumnCount&gt;&lt;Rows&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;22&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Rows&gt;&lt;Columns&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;650&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;StaticTableDimData&gt;&lt;Size&gt;100&lt;/Size&gt;&lt;/StaticTableDimData&gt;&lt;/Columns&gt;&lt;MajorColumnIndexes /&gt;&lt;RepeatableColumnIndexes /&gt;&lt;MajorRowIndexes /&gt;&lt;HeaderRowIndexes /&gt;&lt;RepeatableRowIndexes&gt;&lt;int&gt;0&lt;/int&gt;&lt;/RepeatableRowIndexes&gt;&lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;&lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;&lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;&lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>12</DTNOrder>
+        <DTNStaticGUID>b7a5e90f-5557-4f8d-b01f-c2fb06945c41</DTNStaticGUID>
+        <UniqueNumber>15</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27440</DTNID>
+        <DTNParentRef>27439</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27440</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>ОБСТЕЖЕННЯ</DTNCaption>
+        <DTNStaticGUID>57ac0a29-9bee-4e15-b703-6eac58a023be</DTNStaticGUID>
+        <UniqueNumber>16</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27441</DTNID>
+        <DTNParentRef>27439</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27441</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNCaption>Найменування</DTNCaption>
+        <DTNStaticGUID>893736d9-4276-4760-8ad8-75a3e2db04c0</DTNStaticGUID>
+        <UniqueNumber>17</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27442</DTNID>
+        <DTNParentRef>27439</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27442</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNCaption>Дата призначення</DTNCaption>
+        <DTNStaticGUID>d5d369f9-4316-40c3-9d4d-01bb9b7e2b6a</DTNStaticGUID>
+        <UniqueNumber>18</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27443</DTNID>
+        <DTNParentRef>27439</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27443</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNCaption>Найменування</DTNCaption>
+        <DTNStaticGUID>b4fc65ea-a620-42f3-a3c7-ff7e3c0d4975</DTNStaticGUID>
+        <UniqueNumber>19</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27444</DTNID>
+        <DTNParentRef>27439</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27444</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;3&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNCaption>Дата призначення</DTNCaption>
+        <DTNStaticGUID>544399bc-b08e-43d8-963e-424f79a1e81c</DTNStaticGUID>
+        <UniqueNumber>20</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27452</DTNID>
+        <DTNParentRef>27445</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27452</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Загальноклінічні та біохімічні</DTNCaption>
+        <DTNStaticGUID>f1424d41-ba40-475c-9de3-e125c3a6c933</DTNStaticGUID>
+        <UniqueNumber>21</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27453</DTNID>
+        <DTNParentRef>27445</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27453</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNCaption>Ендоскопічні</DTNCaption>
+        <DTNStaticGUID>ed4f7852-a206-41d4-b801-0e4eed9c4160</DTNStaticGUID>
+        <UniqueNumber>22</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27454</DTNID>
+        <DTNParentRef>27451</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27454</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>1280a179-5c63-4f7d-a0cc-aee97a6f5ba7</DTNStaticGUID>
+        <UniqueNumber>23</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27455</DTNID>
+        <DTNParentRef>27451</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27455</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>b948e210-cfa5-46f4-b618-a8f09d9afc43</DTNStaticGUID>
+        <UniqueNumber>24</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27456</DTNID>
+        <DTNParentRef>27451</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27456</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNStaticGUID>74c7c2fa-cb76-463e-8ab0-39be8817df3f</DTNStaticGUID>
+        <UniqueNumber>25</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27457</DTNID>
+        <DTNParentRef>27451</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27457</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;3&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>3</DTNOrder>
+        <DTNStaticGUID>fe536028-0823-4b0e-b134-7681f9758ec6</DTNStaticGUID>
+        <UniqueNumber>26</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27463</DTNID>
+        <DTNParentRef>27458</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27463</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNCaption>Рентгенологічні</DTNCaption>
+        <DTNStaticGUID>14ac7828-5ee4-4e87-a7f5-da6c04ae3dc0</DTNStaticGUID>
+        <UniqueNumber>27</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27462</DTNID>
+        <DTNParentRef>27458</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27462</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNStaticGUID>820055c3-3120-471a-b3a3-f43c6117ad7b</DTNStaticGUID>
+        <UniqueNumber>28</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27461</DTNID>
+        <DTNParentRef>27458</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27461</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNStaticGUID>2398ffb0-d07b-46c8-b2d6-56b89b7a33e3</DTNStaticGUID>
+        <UniqueNumber>29</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27460</DTNID>
+        <DTNParentRef>27458</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27460</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNStaticGUID>b0d83167-42c4-4632-81f0-df29850a5708</DTNStaticGUID>
+        <UniqueNumber>30</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27459</DTNID>
+        <DTNParentRef>27458</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27459</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;3&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNStaticGUID>3167c22c-558b-4d35-9983-2fae6be91f4c</DTNStaticGUID>
+        <UniqueNumber>31</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27469</DTNID>
+        <DTNParentRef>27464</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27469</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNCaption>Ультразвукові</DTNCaption>
+        <DTNStaticGUID>48eb060e-e8de-4902-8013-75c5024c9e6d</DTNStaticGUID>
+        <UniqueNumber>32</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27468</DTNID>
+        <DTNParentRef>27464</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27468</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNStaticGUID>aedb98ad-80c2-45ff-8a4d-8bd3f2fc5360</DTNStaticGUID>
+        <UniqueNumber>33</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27467</DTNID>
+        <DTNParentRef>27464</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27467</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNStaticGUID>74912169-c63d-40c4-b10f-dcb63e5cc2c3</DTNStaticGUID>
+        <UniqueNumber>34</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27466</DTNID>
+        <DTNParentRef>27464</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27466</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNStaticGUID>5fffc387-3d39-47f3-b1bc-a0dbd7f03f05</DTNStaticGUID>
+        <UniqueNumber>35</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27465</DTNID>
+        <DTNParentRef>27464</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27465</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;3&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNStaticGUID>ff2dc42e-fff8-44bc-adfb-6c6d6959f03a</DTNStaticGUID>
+        <UniqueNumber>36</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27475</DTNID>
+        <DTNParentRef>27470</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27475</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNCaption>Мікробіологічні</DTNCaption>
+        <DTNStaticGUID>7519216d-6f13-4af9-8d54-5393cde6009b</DTNStaticGUID>
+        <UniqueNumber>37</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27474</DTNID>
+        <DTNParentRef>27470</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27474</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNStaticGUID>98d143c8-23fc-4e11-b3ab-792b7ef4165b</DTNStaticGUID>
+        <UniqueNumber>38</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27473</DTNID>
+        <DTNParentRef>27470</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27473</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNStaticGUID>17c67a04-aff5-49ec-892e-f5181efa0014</DTNStaticGUID>
+        <UniqueNumber>39</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27472</DTNID>
+        <DTNParentRef>27470</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27472</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNStaticGUID>45f35ff7-3099-47a2-9aaf-137b10dd417e</DTNStaticGUID>
+        <UniqueNumber>40</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27471</DTNID>
+        <DTNParentRef>27470</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27471</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;1&lt;/RowIndex&gt;&lt;ColumnIndex&gt;3&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNStaticGUID>072f2f61-2b7d-44d2-a994-b17573d8cdf7</DTNStaticGUID>
+        <UniqueNumber>41</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27477</DTNID>
+        <DTNParentRef>27476</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27477</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Функціональні</DTNCaption>
+        <DTNStaticGUID>1ba287c0-332d-4ca4-941f-fe9fbdca39d8</DTNStaticGUID>
+        <UniqueNumber>42</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27479</DTNID>
+        <DTNParentRef>27478</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27479</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Найменування процедури</DTNCaption>
+        <DTNStaticGUID>69b22386-6473-4fbf-9c5f-13c293edc648</DTNStaticGUID>
+        <UniqueNumber>43</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27480</DTNID>
+        <DTNParentRef>27478</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27480</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNCaption>Дата призначення</DTNCaption>
+        <DTNStaticGUID>41dd5b58-c7dd-4462-882f-bc6fe478274b</DTNStaticGUID>
+        <UniqueNumber>44</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27483</DTNID>
+        <DTNParentRef>27481</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27483</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>dcb0d705-6770-461f-8fc6-e9af51a27f50</DTNStaticGUID>
+        <UniqueNumber>45</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27482</DTNID>
+        <DTNParentRef>27481</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27482</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>46da6f00-1bf6-4ad7-994a-e3bf35b196a3</DTNStaticGUID>
+        <UniqueNumber>46</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27485</DTNID>
+        <DTNParentRef>27484</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27485</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Фізіотерапевтичні процедури</DTNCaption>
+        <DTNStaticGUID>1eea4540-1561-489b-accd-3f18b5bf476b</DTNStaticGUID>
+        <UniqueNumber>47</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27488</DTNID>
+        <DTNParentRef>27486</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27488</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>41d104bf-0110-4ac6-8e07-a6e34f094458</DTNStaticGUID>
+        <UniqueNumber>48</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27487</DTNID>
+        <DTNParentRef>27486</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27487</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>a85e01e8-9965-4a88-8ff9-0eef483dbb5b</DTNStaticGUID>
+        <UniqueNumber>49</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27490</DTNID>
+        <DTNParentRef>27489</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27490</DTNStaticID>
+        <DTNDisplayXML>&lt;DTXT&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;H5&lt;/Style&gt;&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;STXT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Зондові процедури</DTNCaption>
+        <DTNStaticGUID>cea57d91-9866-471a-8cfb-bca4d938b5d3</DTNStaticGUID>
+        <UniqueNumber>50</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27493</DTNID>
+        <DTNParentRef>27491</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27493</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Type&gt;String&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>06e64129-3c44-491b-9fe4-2528b1b09bb3</DTNStaticGUID>
+        <UniqueNumber>51</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27492</DTNID>
+        <DTNParentRef>27491</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27492</DTNStaticID>
+        <DTNDisplayXML>&lt;DDAT&gt;&lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;&lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;SDAT&gt;&lt;RowIndex&gt;0&lt;/RowIndex&gt;&lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;&lt;DefaultDateValue&gt;0001-01-01T00:00:00&lt;/DefaultDateValue&gt;&lt;Type&gt;Date&lt;/Type&gt;&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>2aafd923-f49c-48a1-abdd-986462bfabca</DTNStaticGUID>
+        <UniqueNumber>52</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27494</DTNID>
+        <DTNParentRef>27495</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27494</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;AlternativeCaption&gt;1 сторінка&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>b32a134d-092a-4c2b-b7e2-ea0f6d611d28</DTNStaticGUID>
+        <UniqueNumber>53</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27495</DTNID>
+        <DTNParentRef>27437</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27495</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTBL&gt;
+  &lt;AlternativeCaption&gt;1 сторінка&lt;/AlternativeCaption&gt;
+  &lt;NewLine&gt;true&lt;/NewLine&gt;
+  &lt;InsertPageBreak&gt;true&lt;/InsertPageBreak&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+  &lt;CellPadding&gt;
+    &lt;Left&gt;2&lt;/Left&gt;
+    &lt;Top&gt;1&lt;/Top&gt;
+    &lt;Right&gt;1&lt;/Right&gt;
+    &lt;Bottom&gt;1&lt;/Bottom&gt;
+  &lt;/CellPadding&gt;
+  &lt;BorderColor&gt;
+    &lt;ARGB&gt;-5658199&lt;/ARGB&gt;
+  &lt;/BorderColor&gt;
+  &lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;
+  &lt;WidthInPercents d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" /&gt;
+&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STBL&gt;
+  &lt;Cells&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+  &lt;/Cells&gt;
+  &lt;RowCount&gt;1&lt;/RowCount&gt;
+  &lt;ColumnCount&gt;1&lt;/ColumnCount&gt;
+  &lt;Rows&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Rows&gt;
+  &lt;Columns&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;754&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Columns&gt;
+  &lt;MajorColumnIndexes /&gt;
+  &lt;RepeatableColumnIndexes /&gt;
+  &lt;MajorRowIndexes /&gt;
+  &lt;HeaderRowIndexes /&gt;
+  &lt;RepeatableRowIndexes /&gt;
+  &lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;
+  &lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;
+  &lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;
+&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>3b2b25cc-efc9-4049-9e1f-22bd930be21e</DTNStaticGUID>
+        <UniqueNumber>54</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27542</DTNID>
+        <DTNParentRef>27497</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27542</DTNStaticID>
+        <DTNDisplayXML>&lt;DTBL&gt;&lt;Style&gt;Normal&lt;/Style&gt;&lt;CellPadding&gt;&lt;Left&gt;2&lt;/Left&gt;&lt;Top&gt;1&lt;/Top&gt;&lt;Right&gt;1&lt;/Right&gt;&lt;Bottom&gt;1&lt;/Bottom&gt;&lt;/CellPadding&gt;&lt;BorderColor&gt;&lt;ARGB&gt;-16777216&lt;/ARGB&gt;&lt;/BorderColor&gt;&lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;&lt;WidthInPercents xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" d2p1:nil="true" /&gt;&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STBL&gt;
+  &lt;Cells&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+      &lt;Width&gt;3&lt;/Width&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;2&lt;/Row&gt;
+      &lt;Width&gt;3&lt;/Width&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+  &lt;/Cells&gt;
+  &lt;RowCount&gt;3&lt;/RowCount&gt;
+  &lt;ColumnCount&gt;3&lt;/ColumnCount&gt;
+  &lt;Rows&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Rows&gt;
+  &lt;Columns&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;150&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;275&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;323&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Columns&gt;
+  &lt;MajorColumnIndexes /&gt;
+  &lt;RepeatableColumnIndexes /&gt;
+  &lt;MajorRowIndexes /&gt;
+  &lt;HeaderRowIndexes /&gt;
+  &lt;RepeatableRowIndexes /&gt;
+  &lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;
+  &lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;
+  &lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;
+&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>1e1207a9-7b4f-48d8-904b-3068626b0bb2</DTNStaticGUID>
+        <UniqueNumber>55</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27497</DTNID>
+        <DTNParentRef>27496</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27497</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;AlternativeCaption&gt;2 сторінка&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>4d6f9dc6-e234-4a95-bc36-7aef1708e070</DTNStaticGUID>
+        <UniqueNumber>66</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27496</DTNID>
+        <DTNParentRef>27437</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27496</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTBL&gt;
+  &lt;AlternativeCaption&gt;2 сторінка&lt;/AlternativeCaption&gt;
+  &lt;NewLine&gt;true&lt;/NewLine&gt;
+  &lt;InsertPageBreak&gt;true&lt;/InsertPageBreak&gt;
+  &lt;Padding&gt;
+    &lt;Top&gt;30&lt;/Top&gt;
+  &lt;/Padding&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+  &lt;CellPadding&gt;
+    &lt;Left&gt;2&lt;/Left&gt;
+    &lt;Top&gt;1&lt;/Top&gt;
+    &lt;Right&gt;1&lt;/Right&gt;
+    &lt;Bottom&gt;1&lt;/Bottom&gt;
+  &lt;/CellPadding&gt;
+  &lt;BorderColor&gt;
+    &lt;ARGB&gt;-5658199&lt;/ARGB&gt;
+  &lt;/BorderColor&gt;
+  &lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;
+  &lt;WidthInPercents d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" /&gt;
+&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STBL&gt;
+  &lt;Cells&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+  &lt;/Cells&gt;
+  &lt;RowCount&gt;1&lt;/RowCount&gt;
+  &lt;ColumnCount&gt;1&lt;/ColumnCount&gt;
+  &lt;Rows&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Rows&gt;
+  &lt;Columns&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;754&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Columns&gt;
+  &lt;MajorColumnIndexes /&gt;
+  &lt;RepeatableColumnIndexes /&gt;
+  &lt;MajorRowIndexes /&gt;
+  &lt;HeaderRowIndexes /&gt;
+  &lt;RepeatableRowIndexes /&gt;
+  &lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;
+  &lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;
+  &lt;DefaultRepeatNumber&gt;0&lt;/DefaultRepeatNumber&gt;
+&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>870f3dee-539f-435e-b194-e1f5bcf8605e</DTNStaticGUID>
+        <UniqueNumber>67</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27548</DTNID>
+        <DTNParentRef>27542</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27548</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>ДОДАТОК ДО ЛИСТКА ЛІКАРСЬКИХ ПРИЗНАЧЕНЬ</DTNCaption>
+        <DTNStaticGUID>d084672d-dd97-4e44-9a5c-26809df06646</DTNStaticGUID>
+        <UniqueNumber>107</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27549</DTNID>
+        <DTNParentRef>27542</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27549</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>3</DTNOrder>
+        <DTNCaption>Підрозділ</DTNCaption>
+        <DTNStaticGUID>d316c7b9-4119-4631-8ab6-76f88ffb1764</DTNStaticGUID>
+        <UniqueNumber>108</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27550</DTNID>
+        <DTNParentRef>27549</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27550</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>f79d547a-9429-4002-a1e7-b34dc8a23705</DTNStaticGUID>
+        <UniqueNumber>109</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27552</DTNID>
+        <DTNParentRef>27551</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27552</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>4eaae0be-eb77-4d20-8cd8-85b9bbb7470d</DTNStaticGUID>
+        <UniqueNumber>110</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27551</DTNID>
+        <DTNParentRef>27542</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27551</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNCaption>Номер медичної карти хворого: </DTNCaption>
+        <DTNStaticGUID>b7cc8897-7396-4cc3-99ef-e42b9d914f38</DTNStaticGUID>
+        <UniqueNumber>111</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27553</DTNID>
+        <DTNParentRef>27542</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27553</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNCaption>Прізвище, ім’я, по батькові хворого:</DTNCaption>
+        <DTNStaticGUID>a5a1f6c3-a5de-4377-b88a-8db52a83ecb1</DTNStaticGUID>
+        <UniqueNumber>113</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27554</DTNID>
+        <DTNParentRef>27553</DTNParentRef>
+        <DTNTypeRef>PRD</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNName></DTNName>
+        <DTNStaticID>27554</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DPRD&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DPRD&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SPRD&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+  &lt;FieldToGetValueFrom&gt;PatientName&lt;/FieldToGetValueFrom&gt;
+&lt;/SPRD&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption></DTNCaption>
+        <DTNStaticGUID>c2f85789-84a8-4984-8c9d-1f15afb0bfc9</DTNStaticGUID>
+        <UniqueNumber>114</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27555</DTNID>
+        <DTNParentRef>27542</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27555</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;H5&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNCaption>Використання  медичних  виробів  (витратних матеріалів)</DTNCaption>
+        <DTNStaticGUID>413ea668-706a-4ccb-b795-80bac0e3a84e</DTNStaticGUID>
+        <UniqueNumber>115</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27556</DTNID>
+        <DTNParentRef>27497</DTNParentRef>
+        <DTNTypeRef>TBL</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27556</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTBL&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+  &lt;CellPadding&gt;
+    &lt;Left&gt;2&lt;/Left&gt;
+    &lt;Top&gt;1&lt;/Top&gt;
+    &lt;Right&gt;1&lt;/Right&gt;
+    &lt;Bottom&gt;1&lt;/Bottom&gt;
+  &lt;/CellPadding&gt;
+  &lt;BorderColor&gt;
+    &lt;ARGB&gt;-16777216&lt;/ARGB&gt;
+  &lt;/BorderColor&gt;
+  &lt;AvoidPageBreaksInside&gt;true&lt;/AvoidPageBreaksInside&gt;
+  &lt;WidthInPercents d2p1:nil="true" xmlns:d2p1="http://www.w3.org/2001/XMLSchema-instance" /&gt;
+&lt;/DTBL&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STBL&gt;
+  &lt;Cells&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;2&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;3&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;4&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;5&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;6&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;7&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;8&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;9&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;10&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;11&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;12&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;13&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;14&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;15&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;16&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;17&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;18&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;19&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;20&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;21&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;22&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;23&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;0&lt;/Col&gt;
+      &lt;Row&gt;24&lt;/Row&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;2&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;3&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;4&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;5&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;6&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;7&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;8&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;9&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;10&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;11&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;12&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;13&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;14&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;15&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;16&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;17&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;18&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;19&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;20&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;21&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;22&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;23&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;1&lt;/Col&gt;
+      &lt;Row&gt;24&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;0&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;1&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;2&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;3&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;4&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;5&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;6&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;7&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;8&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;9&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;10&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;11&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;12&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;13&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;14&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;15&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;16&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;17&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;18&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;19&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;20&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;21&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;22&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;23&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+    &lt;StaticTableCellData&gt;
+      &lt;Col&gt;2&lt;/Col&gt;
+      &lt;Row&gt;24&lt;/Row&gt;
+      &lt;Alignment&gt;Center&lt;/Alignment&gt;
+    &lt;/StaticTableCellData&gt;
+  &lt;/Cells&gt;
+  &lt;RowCount&gt;25&lt;/RowCount&gt;
+  &lt;ColumnCount&gt;3&lt;/ColumnCount&gt;
+  &lt;Rows&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;22&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Rows&gt;
+  &lt;Columns&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;548&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;100&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+    &lt;StaticTableDimData&gt;
+      &lt;Size&gt;100&lt;/Size&gt;
+    &lt;/StaticTableDimData&gt;
+  &lt;/Columns&gt;
+  &lt;MajorColumnIndexes /&gt;
+  &lt;RepeatableColumnIndexes /&gt;
+  &lt;MajorRowIndexes /&gt;
+  &lt;HeaderRowIndexes /&gt;
+  &lt;RepeatableRowIndexes&gt;
+    &lt;int&gt;24&lt;/int&gt;
+  &lt;/RepeatableRowIndexes&gt;
+  &lt;HasRowGrouping&gt;false&lt;/HasRowGrouping&gt;
+  &lt;HasColumnGrouping&gt;false&lt;/HasColumnGrouping&gt;
+  &lt;ShowCommandName&gt;false&lt;/ShowCommandName&gt;
+  &lt;DefaultRepeatNumber&gt;1&lt;/DefaultRepeatNumber&gt;
+&lt;/STBL&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNStaticGUID>220d90d4-a5a8-4ad9-8f9b-309896eaaf8b</DTNStaticGUID>
+        <UniqueNumber>116</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27557</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27557</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNCaption>Найменування медичного виробу  (витратного матеріалу)</DTNCaption>
+        <DTNStaticGUID>c8320879-f954-4a06-ab0d-4974f13b55c8</DTNStaticGUID>
+        <UniqueNumber>117</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27558</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27558</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>1</DTNOrder>
+        <DTNCaption>Одиниця   виміру</DTNCaption>
+        <DTNStaticGUID>a739290f-0779-4aed-aaf5-1764810ad979</DTNStaticGUID>
+        <UniqueNumber>118</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27559</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27559</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNCaption>Кількість</DTNCaption>
+        <DTNStaticGUID>a7892818-2e4a-4593-886b-1d17712a9738</DTNStaticGUID>
+        <UniqueNumber>119</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27560</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27560</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>3</DTNOrder>
+        <DTNCaption>Марля</DTNCaption>
+        <DTNStaticGUID>c2583c8c-276d-41ce-ae27-634ce557f2d4</DTNStaticGUID>
+        <UniqueNumber>120</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27561</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27561</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>6</DTNOrder>
+        <DTNCaption>Розчин Na Cl  0,9%</DTNCaption>
+        <DTNStaticGUID>122e9d30-532d-40d4-9adc-d4911853c0a9</DTNStaticGUID>
+        <UniqueNumber>121</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27562</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27562</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;3&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>9</DTNOrder>
+        <DTNCaption>Рукавички стерильні</DTNCaption>
+        <DTNStaticGUID>bc391628-b4dc-4fb8-9e3c-39209ba4d89b</DTNStaticGUID>
+        <UniqueNumber>122</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27563</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27563</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;4&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>12</DTNOrder>
+        <DTNCaption>Бетадин</DTNCaption>
+        <DTNStaticGUID>5345df4a-39f0-4b55-aa7d-e08fcd38bfa5</DTNStaticGUID>
+        <UniqueNumber>123</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27564</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27564</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;5&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>15</DTNOrder>
+        <DTNCaption>Спирт</DTNCaption>
+        <DTNStaticGUID>7be37cbc-6bb2-481b-98f6-612262f4f7e3</DTNStaticGUID>
+        <UniqueNumber>124</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27565</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27565</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;6&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>18</DTNOrder>
+        <DTNCaption>Лезо для скальпеля</DTNCaption>
+        <DTNStaticGUID>e6eab5bb-eb27-44d3-b4e5-66882574bb8f</DTNStaticGUID>
+        <UniqueNumber>125</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27566</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27566</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;7&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>21</DTNOrder>
+        <DTNCaption>Комплект одягу та покриття</DTNCaption>
+        <DTNStaticGUID>747e9043-cad0-4176-951d-902f70d99287</DTNStaticGUID>
+        <UniqueNumber>126</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27567</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27567</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;8&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>24</DTNOrder>
+        <DTNCaption>Бахіли</DTNCaption>
+        <DTNStaticGUID>9f7d8b5a-738e-44a5-a3f5-fa7a0b9ca8b7</DTNStaticGUID>
+        <UniqueNumber>127</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27568</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27568</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;9&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>27</DTNOrder>
+        <DTNCaption>Халати хірургічні стерильні</DTNCaption>
+        <DTNStaticGUID>3fc3f701-4b82-4d1c-85bd-6b9b3630756f</DTNStaticGUID>
+        <UniqueNumber>128</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27569</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27569</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;10&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>30</DTNOrder>
+        <DTNCaption>Брильянтовий зелений</DTNCaption>
+        <DTNStaticGUID>c48908d1-dd19-47d0-a8c5-159e907e106f</DTNStaticGUID>
+        <UniqueNumber>129</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27570</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27570</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;11&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>33</DTNOrder>
+        <DTNCaption>Лейкопластир</DTNCaption>
+        <DTNStaticGUID>763027ad-cfbb-4ed5-b624-535a1bae1895</DTNStaticGUID>
+        <UniqueNumber>130</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27571</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27571</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;12&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>36</DTNOrder>
+        <DTNCaption>Левоміколь</DTNCaption>
+        <DTNStaticGUID>01e6de65-b01c-4a24-a0a7-5963cc452b35</DTNStaticGUID>
+        <UniqueNumber>131</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27572</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27572</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;13&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>39</DTNOrder>
+        <DTNCaption>Полігліколід 2,0</DTNCaption>
+        <DTNStaticGUID>72b5e936-a891-4c86-81d4-af5df3680c0f</DTNStaticGUID>
+        <UniqueNumber>132</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27573</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27573</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;14&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>42</DTNOrder>
+        <DTNCaption>Полігліколід 0</DTNCaption>
+        <DTNStaticGUID>11920a6d-dfea-4fd0-94d1-bcebc53a9e46</DTNStaticGUID>
+        <UniqueNumber>133</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27574</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27574</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;15&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>45</DTNOrder>
+        <DTNCaption>Полігліколід 3,0</DTNCaption>
+        <DTNStaticGUID>a9a16e43-5614-4aa5-bc29-66687af6a7f4</DTNStaticGUID>
+        <UniqueNumber>134</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27575</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27575</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;16&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>48</DTNOrder>
+        <DTNCaption>Шприци</DTNCaption>
+        <DTNStaticGUID>dd781dd9-6872-43c7-8250-dd3e155da9eb</DTNStaticGUID>
+        <UniqueNumber>135</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27576</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27576</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;17&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>51</DTNOrder>
+        <DTNCaption>Нейлон 3 (50*30)</DTNCaption>
+        <DTNStaticGUID>6084dd07-7ab4-4233-90e6-d35ad3dabc8e</DTNStaticGUID>
+        <UniqueNumber>136</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27577</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27577</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;18&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>54</DTNOrder>
+        <DTNCaption>Нейлон 1 (50*30)</DTNCaption>
+        <DTNStaticGUID>bbf632d3-b535-46a8-8eb5-9e7870e16888</DTNStaticGUID>
+        <UniqueNumber>137</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27578</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27578</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;19&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>57</DTNOrder>
+        <DTNCaption>Нейлон 0 (50*30)</DTNCaption>
+        <DTNStaticGUID>83e910d3-4bfc-4330-9f90-e1f377cee02a</DTNStaticGUID>
+        <UniqueNumber>138</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27579</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27579</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;20&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>60</DTNOrder>
+        <DTNCaption>Шапочки медичні</DTNCaption>
+        <DTNStaticGUID>be283659-5d20-4ba7-b175-4e1da785d39d</DTNStaticGUID>
+        <UniqueNumber>139</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27580</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27580</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;21&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>63</DTNOrder>
+        <DTNCaption>Зонд шлунковий № 18</DTNCaption>
+        <DTNStaticGUID>78aca43d-d79e-4a69-814a-32c5c77748e1</DTNStaticGUID>
+        <UniqueNumber>140</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27581</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27581</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;22&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>66</DTNOrder>
+        <DTNCaption>Дренаж по Редану 6,0 </DTNCaption>
+        <DTNStaticGUID>90e297af-9dae-484b-a833-55e149a2ad91</DTNStaticGUID>
+        <UniqueNumber>141</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27582</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27582</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;HorizontalAlign&gt;Center&lt;/HorizontalAlign&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT&gt;
+  &lt;RowIndex&gt;23&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+&lt;/STXT&gt;</DTNSettingXML>
+        <DTNOrder>69</DTNOrder>
+        <DTNCaption>Покриття операційні </DTNCaption>
+        <DTNStaticGUID>29507b85-d546-41ef-86e7-b64aa196d9e4</DTNStaticGUID>
+        <UniqueNumber>142</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27583</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27583</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;24&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>72</DTNOrder>
+        <DTNStaticGUID>cd224068-f8e5-49a6-860a-401f9431c695</DTNStaticGUID>
+        <UniqueNumber>143</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27584</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27584</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>4</DTNOrder>
+        <DTNStaticGUID>2875c916-971c-4a08-86e4-b96c6ca9687b</DTNStaticGUID>
+        <UniqueNumber>144</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27585</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27585</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;11&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>34</DTNOrder>
+        <DTNStaticGUID>dc68f542-2b49-4500-83e4-8b627ac6e92b</DTNStaticGUID>
+        <UniqueNumber>145</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27586</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27586</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;10&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>32</DTNOrder>
+        <DTNStaticGUID>44fb728d-81de-43d9-96bd-d21809430647</DTNStaticGUID>
+        <UniqueNumber>146</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27587</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27587</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;10&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>31</DTNOrder>
+        <DTNStaticGUID>b71182d4-2bef-4d75-8cc4-e046ff54eb8a</DTNStaticGUID>
+        <UniqueNumber>147</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27588</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27588</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;9&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>29</DTNOrder>
+        <DTNStaticGUID>5d155b5e-ed97-43e4-95bc-200d1a4a134d</DTNStaticGUID>
+        <UniqueNumber>148</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27589</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27589</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;9&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>28</DTNOrder>
+        <DTNStaticGUID>efd514d9-03a1-4dea-b49d-0c4a1f719fc5</DTNStaticGUID>
+        <UniqueNumber>149</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27590</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27590</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;8&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>26</DTNOrder>
+        <DTNStaticGUID>16d1aa12-6590-4057-acfb-441d8340b8d6</DTNStaticGUID>
+        <UniqueNumber>150</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27591</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27591</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;8&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>25</DTNOrder>
+        <DTNStaticGUID>988831ab-4cb3-4e24-9534-5a9500a4c55c</DTNStaticGUID>
+        <UniqueNumber>151</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27592</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27592</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;7&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>23</DTNOrder>
+        <DTNStaticGUID>0f27bc1a-efd3-4965-8174-c7015b10686f</DTNStaticGUID>
+        <UniqueNumber>152</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27593</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27593</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;7&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>22</DTNOrder>
+        <DTNStaticGUID>95692f36-0736-46d2-b31a-c2e2feea38f0</DTNStaticGUID>
+        <UniqueNumber>153</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27594</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27594</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;6&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>20</DTNOrder>
+        <DTNStaticGUID>dec955a7-809e-405e-aa30-745d1f09adb9</DTNStaticGUID>
+        <UniqueNumber>154</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27595</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27595</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;6&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>19</DTNOrder>
+        <DTNStaticGUID>34f1d151-d6e2-4af4-bf05-e51ed3c19e9e</DTNStaticGUID>
+        <UniqueNumber>155</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27596</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27596</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;5&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>17</DTNOrder>
+        <DTNStaticGUID>31097912-b6fb-45b2-88f9-5fbf96fc7c68</DTNStaticGUID>
+        <UniqueNumber>156</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27597</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27597</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;5&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>16</DTNOrder>
+        <DTNStaticGUID>9e5cc59b-7505-4bce-9b85-8ee1bb7c44de</DTNStaticGUID>
+        <UniqueNumber>157</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27598</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27598</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;4&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>14</DTNOrder>
+        <DTNStaticGUID>1f1ac431-3ff8-473d-af35-9a9c733e8732</DTNStaticGUID>
+        <UniqueNumber>158</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27599</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27599</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;4&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>13</DTNOrder>
+        <DTNStaticGUID>2d62ede8-b895-412a-8ff8-a68ce345b31c</DTNStaticGUID>
+        <UniqueNumber>159</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27600</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27600</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;3&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>11</DTNOrder>
+        <DTNStaticGUID>48f04cde-858b-4df1-990d-a69c2da77fc6</DTNStaticGUID>
+        <UniqueNumber>160</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27601</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27601</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;3&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>10</DTNOrder>
+        <DTNStaticGUID>4c20e268-5eba-4693-9e8b-45dd1b3520c7</DTNStaticGUID>
+        <UniqueNumber>161</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27602</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27602</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>8</DTNOrder>
+        <DTNStaticGUID>1fd12b98-2750-4829-b055-d2c8333752ab</DTNStaticGUID>
+        <UniqueNumber>162</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27603</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27603</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>7</DTNOrder>
+        <DTNStaticGUID>4cf5f7cd-6fee-486a-8548-a9bf0aa1c76a</DTNStaticGUID>
+        <UniqueNumber>163</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27604</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27604</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>5</DTNOrder>
+        <DTNStaticGUID>18658320-219f-4e5a-a278-f0ad6eda5d2e</DTNStaticGUID>
+        <UniqueNumber>164</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27605</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27605</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;11&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>35</DTNOrder>
+        <DTNStaticGUID>7d850caf-539b-4e70-b028-a27f0b3e3ee2</DTNStaticGUID>
+        <UniqueNumber>165</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27606</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27606</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;12&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>38</DTNOrder>
+        <DTNStaticGUID>0453dd8a-53b0-4850-83fb-8d20f9035c56</DTNStaticGUID>
+        <UniqueNumber>166</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27607</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27607</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;13&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>40</DTNOrder>
+        <DTNStaticGUID>cba757b7-60db-4582-9a54-dd4381130de2</DTNStaticGUID>
+        <UniqueNumber>167</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27608</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27608</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;12&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>37</DTNOrder>
+        <DTNStaticGUID>9833c65e-a8d9-4384-9c74-b4cf75cfe7ea</DTNStaticGUID>
+        <UniqueNumber>168</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27609</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27609</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;13&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>41</DTNOrder>
+        <DTNStaticGUID>41fd228f-40a8-4544-bf29-71797a1abd0e</DTNStaticGUID>
+        <UniqueNumber>169</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27610</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27610</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;14&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>44</DTNOrder>
+        <DTNStaticGUID>e7af8dd3-165d-492b-b9ee-c98243b51a48</DTNStaticGUID>
+        <UniqueNumber>170</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27611</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27611</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;14&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>43</DTNOrder>
+        <DTNStaticGUID>9d08a1d6-f641-4e98-a3a7-756c094f0987</DTNStaticGUID>
+        <UniqueNumber>171</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27612</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27612</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;15&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>46</DTNOrder>
+        <DTNStaticGUID>2351e68c-2444-477d-8d0f-e970e8174d4a</DTNStaticGUID>
+        <UniqueNumber>172</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27613</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27613</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;15&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>47</DTNOrder>
+        <DTNStaticGUID>e69c721e-e683-4e1d-877b-fab5bc464378</DTNStaticGUID>
+        <UniqueNumber>173</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27617</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27617</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;24&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>74</DTNOrder>
+        <DTNStaticGUID>3825d817-fcdb-43e6-8fcd-fd4636c4bf4e</DTNStaticGUID>
+        <UniqueNumber>177</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27618</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27618</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;24&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>73</DTNOrder>
+        <DTNStaticGUID>860d87fe-b3e8-4a32-bf38-0705db495da1</DTNStaticGUID>
+        <UniqueNumber>178</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27619</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27619</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;23&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>71</DTNOrder>
+        <DTNStaticGUID>aadc40a3-d5ab-4868-a7e0-8cbb7d293ea1</DTNStaticGUID>
+        <UniqueNumber>179</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27620</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27620</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;23&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>70</DTNOrder>
+        <DTNStaticGUID>fba6df49-6c0f-44ac-8779-e0ccfd3b0e71</DTNStaticGUID>
+        <UniqueNumber>180</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27621</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27621</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;22&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>68</DTNOrder>
+        <DTNStaticGUID>6500960c-5c70-43c0-959a-91d83f93960b</DTNStaticGUID>
+        <UniqueNumber>181</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27622</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27622</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;22&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>67</DTNOrder>
+        <DTNStaticGUID>af20b54d-810d-4116-81f4-bfe7ef421ee1</DTNStaticGUID>
+        <UniqueNumber>182</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27623</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27623</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;21&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>65</DTNOrder>
+        <DTNStaticGUID>2af3b00e-2f08-4b8f-bdaf-9226058e5be4</DTNStaticGUID>
+        <UniqueNumber>183</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27624</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27624</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;21&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>64</DTNOrder>
+        <DTNStaticGUID>541a86c0-33a2-45bf-a604-eea60a288346</DTNStaticGUID>
+        <UniqueNumber>184</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27625</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27625</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;20&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>61</DTNOrder>
+        <DTNStaticGUID>f74417b8-d9a0-4e52-9319-44deb29e5d2a</DTNStaticGUID>
+        <UniqueNumber>185</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27626</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27626</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;20&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>62</DTNOrder>
+        <DTNStaticGUID>669ed8e1-e856-4e4c-956f-48a8bf7b82e0</DTNStaticGUID>
+        <UniqueNumber>186</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27627</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27627</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;19&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>59</DTNOrder>
+        <DTNStaticGUID>a89aab64-a412-44d7-a259-70b23dfe47f8</DTNStaticGUID>
+        <UniqueNumber>187</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27628</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27628</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;19&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>58</DTNOrder>
+        <DTNStaticGUID>36b8ebc1-3fe7-40a1-8d80-80e0785d0f97</DTNStaticGUID>
+        <UniqueNumber>188</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27629</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27629</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;18&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>55</DTNOrder>
+        <DTNStaticGUID>704afcb3-c8ac-4b17-80a5-26d710db237b</DTNStaticGUID>
+        <UniqueNumber>189</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27630</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27630</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;18&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>56</DTNOrder>
+        <DTNStaticGUID>e9f4d93d-b6f1-4c88-9934-610c8957417f</DTNStaticGUID>
+        <UniqueNumber>190</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27631</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27631</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;17&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>53</DTNOrder>
+        <DTNStaticGUID>12b04ea4-41f6-44cb-9770-f2c960b78864</DTNStaticGUID>
+        <UniqueNumber>191</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27632</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27632</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;17&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>52</DTNOrder>
+        <DTNStaticGUID>01cf8123-67cf-431f-8c26-e0bbc3db1647</DTNStaticGUID>
+        <UniqueNumber>192</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27633</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27633</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;16&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>50</DTNOrder>
+        <DTNStaticGUID>bce5249b-d92c-4d4c-9447-2fb460ef7948</DTNStaticGUID>
+        <UniqueNumber>193</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27634</DTNID>
+        <DTNParentRef>27556</DTNParentRef>
+        <DTNTypeRef>DAT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27634</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDAT&gt;
+  &lt;AlternativeCaption&gt;(ввести)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDAT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDAT&gt;
+  &lt;RowIndex&gt;16&lt;/RowIndex&gt;
+  &lt;ColumnIndex&gt;1&lt;/ColumnIndex&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+&lt;/SDAT&gt;</DTNSettingXML>
+        <DTNOrder>49</DTNOrder>
+        <DTNStaticGUID>6e2e0bfc-2681-4e1f-8a6d-8832f2ca2b3e</DTNStaticGUID>
+        <UniqueNumber>194</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27635</DTNID>
+        <DTNParentRef>27497</DTNParentRef>
+        <DTNTypeRef>TXT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27635</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DTXT&gt;
+  &lt;NewLine&gt;true&lt;/NewLine&gt;
+  &lt;Padding&gt;
+    &lt;Top&gt;20&lt;/Top&gt;
+  &lt;/Padding&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DTXT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;STXT /&gt;</DTNSettingXML>
+        <DTNOrder>2</DTNOrder>
+        <DTNCaption>Старша  медична  сестра:</DTNCaption>
+        <DTNStaticGUID>784bdcf1-ed05-47f6-80e3-81abf5dd244b</DTNStaticGUID>
+        <UniqueNumber>195</UniqueNumber>
+      </DTN>
+      <DTN>
+        <DTNID>27636</DTNID>
+        <DTNParentRef>27635</DTNParentRef>
+        <DTNTypeRef>DCT</DTNTypeRef>
+        <DTVersionRef>49</DTVersionRef>
+        <DTNStaticID>27636</DTNStaticID>
+        <DTNDisplayXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;DDCT&gt;
+  &lt;AlternativeCaption&gt;(вибрати)&lt;/AlternativeCaption&gt;
+  &lt;Style&gt;Normal&lt;/Style&gt;
+&lt;/DDCT&gt;</DTNDisplayXML>
+        <DTNSettingXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SDCT&gt;
+  &lt;AutomaticallySetDefaultValue&gt;true&lt;/AutomaticallySetDefaultValue&gt;
+  &lt;Type&gt;String&lt;/Type&gt;
+  &lt;DictionaryName&gt;Користувачі&lt;/DictionaryName&gt;
+  &lt;DefaultValue /&gt;
+&lt;/SDCT&gt;</DTNSettingXML>
+        <DTNOrder>0</DTNOrder>
+        <DTNStaticGUID>1a14cbf5-0549-4255-bce9-6f3ea6aa2bb9</DTNStaticGUID>
+        <UniqueNumber>196</UniqueNumber>
+      </DTN>
+    </DocumentTemplateNodeDS>
+  </Nodes>
+  <statistic-nodes>
+    <StatisticNodeDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\StatisticNodeDS.xsd" />
+  </statistic-nodes>
+  <references>
+    <ReferenceDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\ReferenceDS.xsd" />
+  </references>
+  <sequences>
+    <SequenceDS xmlns="http://www.eleks.com/./../../../Server/Datasets/datasets\SequenceDS.xsd" />
+  </sequences>
+</root>
