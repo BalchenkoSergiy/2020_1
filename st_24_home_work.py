@@ -24,15 +24,12 @@ count_us = 0
 numbers_list = random.randint(0, 100)
 while True:
     user_number = int(input('Введи своє число будь-ласка: '))
+    count_us += 1
     if user_number < numbers_list:
-        count_us += 1
         print('Моє число є більшим за твоє. Спробуй вказати більше число')
-        #user_number = int(input('Введи своє число: '))
     elif user_number > numbers_list:
-        count_us += 1
         print('Моє число є меньшим за твоє. Спробуй вказати меньше число')
-        #user_number = int(input('Введи своє число: '))
     else:
-        count_us += 1
         print(f'Ура!!! Ти {user_name} чемпіон!!! Хорша гра!!!')
         print(f'Ти переміг за {count_us} спроб')
+        break
