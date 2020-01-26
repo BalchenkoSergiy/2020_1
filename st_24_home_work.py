@@ -21,10 +21,10 @@ import random
 print('Привіт користувач! Мене звати Комп\'ютер')
 print('Давай познайомимось.')
 user_name = input('Як тебе звати?: ')
-print(f'Ok {user_name}, добре. Тепер давай пограємо в гру. Я загадав число від 1 до 100')
+print(f'{user_name}, добре. Тепер давай пограємо в гру. Я загадав число від 1 до 30')
 print('Спробуй відгадати яке я число загадав!')
 count_us = 0
-numbers_list = random.randint(0, 100)
+numbers_list = random.randint(0, 11)
 while True:
     user_number = int(input('Введи своє число будь-ласка: '))
     count_us += 1
