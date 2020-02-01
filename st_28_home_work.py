@@ -35,6 +35,18 @@ find_sum(5) # return 8 (3 + 5)
 find_sum(10) # return 33 (3 + 5 + 6 + 9 + 10)
 """
 
+def find_sum(n):
+    def create_list(n):
+        result = list(range(0, n+1))
+        print('list -->:', result)
+        return result
+    return sum(i for i in create_list(n) if i % 3 == 0 or i % 5 == 0)
+
+
+print('version 1 -->:', find_sum(10))
+print('version 2 -->:', sum(i for i in (list(range(0, 10+1))) if i % 3 == 0 or i % 5 == 0))
+
+
 """
 3. Дан список имен. Выберите в новый список только те имена, которые состоят из 4-х букв.
 names = ["Ryan", "Kieran", "Mark", "John", "David", "Paul"] # ["Ryan", "Mark", "John", "Paul"]
