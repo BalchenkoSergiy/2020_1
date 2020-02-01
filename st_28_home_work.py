@@ -57,4 +57,11 @@ def get_names(names):
     pass
     
 """
+names = ["Ryan", "Kieran", "Mark", "John", "David", "Paul"]
 
+
+def get_names(names):
+    result = [i for i in names if len(i) == 4]
+    return result
+
+print(get_names(names))
