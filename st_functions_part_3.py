@@ -90,10 +90,10 @@ print('*************************************************************************
 
 def f3(l):
     def get_mult(x):
-        if isinstance(x, int):
+        if isinstance(x, int): # проверяем является ли "х" типом "int"
             return x * 2
-    return [get_mult(i) for i in l if get_mult(i)]
-
+    return [get_mult(i) for i in l if get_mult(i)] # if get_mult(i) - если результат вфункции вернул True тогда помещаем
+                                                   # его в return
 
 print('6 -->:', f3(l))
 # [2, 6]
@@ -104,7 +104,7 @@ print('*************************************************************************
 def f4(l):
     def get_mult(x):
         return x * 2
-    return list(map(get_mult, l))
+    return list(map(get_mult, l))# используем get_mult для каждого элемента из l и помещаем все в список
 
 
 print('7 -->:', f4(l))
