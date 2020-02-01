@@ -8,14 +8,10 @@
 """
 
 def odd_ball(arr):
-    def ind(arr):
-        # list.index(x, [start [, end]]) - Возвращает положение первого элемента со значением x (при этом поиск ведется от start до end)
-        if 'odd' in arr:
-            return arr.index('odd')
-        else: pass
-    if ind(arr) in arr:
+    if arr.index('odd') in arr:
         return True
-    else: return False
+    else:
+        return False
 
 print(odd_ball(["even",4,"even",7,"even",55,"even",6,"even",10,"odd",3,"even"])) # True
 print(odd_ball(["even",4,"even",7,"even",55,"even",6,"even",9,"odd",3,"even"])) # False
@@ -61,7 +57,6 @@ names = ["Ryan", "Kieran", "Mark", "John", "David", "Paul"]
 
 
 def get_names(names):
-    result = [i for i in names if len(i) == 4]
-    return result
+    return [i for i in names if len(i) == 4]
 
 print(get_names(names))
