@@ -4,28 +4,37 @@
 
 # https://docs.python.org/3/library/
 
-# import os
-# import random as r
-# import random
-# from random import randint, shuffle
-# from random import *
+import os
+import random as r
+import random
+from random import randint, shuffle
+from random import *
+print('**************************************************************************************************************')
+print(os.getcwd())
 
-# print(os.getcwd())
-# # print(random.randint(1, 100))
-#
-# print(randint(1, 100))
-# l = [1, 2, 3, 4, 5]
-# shuffle(l)
-# print(l)
+print('**************************************************************************************************************')
+print(random.randint(1, 100))
+
+print('**************************************************************************************************************')
+print(randint(1, 100))
+
+print('**************************************************************************************************************')
+l = [1, 2, 3, 4, 5]
+shuffle(l)
+print(l)
 
 
-import libs
+import st_modules_2_libs
 print(__name__)
-# print(libs.get_count('hello', 'l'))
-# print(libs.get_len('hello'))
+print(st_modules_2_libs.get_count('hello', 'l'))
+print(st_modules_2_libs.get_len('hello'))
 
-f = libs.get_count
+
+print('**************************************************************************************************************')
+f = st_modules_2_libs.get_count
 print(f('hello', 'l'))
+
+print('**************************************************************************************************************')
 
 
 def get_sum(a, b):
@@ -34,3 +43,4 @@ def get_sum(a, b):
 
 func = get_sum
 print(func(1, 2))
+print('**************************************************************************************************************')
