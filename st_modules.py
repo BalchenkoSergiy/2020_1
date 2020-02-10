@@ -8,7 +8,7 @@ import os
 import random as r
 import random
 from random import randint, shuffle
-from random import *
+#from random import *
 print('**************************************************************************************************************')
 print(os.getcwd())
 
