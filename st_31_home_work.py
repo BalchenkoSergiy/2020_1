@@ -57,12 +57,21 @@ if new_path in test_main_list[1]:
 else:
     print('no find')
 
-for i in test_main_list:
-    count = 0
-    if i[-1] == []:
-        print(f'\t{i[-2][count]}:')
-    else:
-        print(f'\t \t{i[-1]}')
-    count += 1
+count = 0
+for i in test_list:
+    print(f'{i}:')
+    for a in test_main_list[1:]:
+        if a[-3][-8:] == i:
+            print(f'\t{a[-2]}')
+        elif a[-3][-19:-11] == i:
+            print(f'\t\t{a[-1]}')
+
+#print('--------->', test_main_list[1][-3][-8:])
+
+        #if i[-1] == []:
+        #    print(f'\t{i[-2][count]}:')
+        #else:
+        #    print(f'\t \t{i[-1]}')
+
 
 
