@@ -29,3 +29,40 @@ test = os.getcwd()
 for i in os.walk(r'C:\Users\sergi\PycharmProjects\st_course_1\test_folder_for_check'):
     print(i)
 #print(test)
+
+
+def main_all(path):
+    data_list = []
+    for i in os.walk(path):
+        data_list.append(list(i))
+    return data_list
+
+
+def main_folder(path):
+    data_list = main_all(path)[0][1]
+    return data_list
+
+print('**************************************************************************************************************')
+test_main_list = main_all(r'C:\Users\sergi\PycharmProjects\st_course_1\test_folder_for_check')
+print(test_main_list)
+
+test_list = main_folder(r'C:\Users\sergi\PycharmProjects\st_course_1\test_folder_for_check')
+print('result -->:', test_list)
+
+new_path = str(test_main_list[0][0] + '\\' + test_list[0])
+print(new_path)
+
+if new_path in test_main_list[1]:
+    print('ok')
+else:
+    print('no find')
+
+for i in test_main_list:
+    count = 0
+    if i[-1] == []:
+        print(f'\t{i[-2][count]}:')
+    else:
+        print(f'\t \t{i[-1]}')
+    count += 1
+
+
