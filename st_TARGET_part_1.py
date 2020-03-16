@@ -46,7 +46,7 @@ lessons_list = \
      '44. Regular expressions',
      '45. Module SQLite Part 1',
      '46. Module SQLite Part 2',
-     '47. Module SQLite Part 7',
+     '47. Module SQLite Part 3',
      '48. Module ZipFile']
 
 for i in lessons_list:

@@ -1,6 +1,6 @@
 print('Course plan (Part one):')
 lessons_list = \
-    ['1. "Tkinter". What is it',
+	['1. "Tkinter". What is it',
 	'2. Vidget "Button" part 1',
 	'3. Vidget "Button" part 2',
 	'4. Vidget "Label"',
@@ -23,8 +23,7 @@ lessons_list = \
 	'21. Vidget "TopLevel"',
 	'22. "TTK"',
 	'23. Package "TTKThemes"',
-	'24. Program "World Wether"',
-	]
+	'24. Program "World Wether"']
 
 for i in lessons_list:
     print('---> ', i)
