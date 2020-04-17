@@ -109,3 +109,67 @@ print('17 -->', re.findall(pattern, set_string))
 # 17 --> ['то', 'просто', 'строка', 'текста', 'это', 'еще', 'одна', 'строка', 'текста']
 
 #*************************************************************
+# Якщо мені потрібен діапазон великих та малих букв то я використовую [від-до]
+pattern = r'[а-яА-Я]+'
+print('18 -->', re.findall(pattern, set_string))
+# 18 --> ['Это', 'просто', 'строка', 'текста', 'А', 'это', 'еще', 'одна', 'строка', 'текста']
+
+#*************************************************************
+# Якщо мені потрібно створити пошук який є реєстро незалежним то я використовую flags=re.IGNORECASE
+pattern = r'[а-я]+'
+print('19 -->', re.findall(pattern, set_string, flags=re.IGNORECASE))
+# 19 --> ['Это', 'просто', 'строка', 'текста', 'А', 'это', 'еще', 'одна', 'строка', 'текста']
+
+#*************************************************************
+# Я можу шукати вибірку тільки в кінці строки за допомогою $
+pattern = r'\w+$'
+print('20 -->', re.findall(pattern, set_string, flags=re.IGNORECASE))
+# 20 --> ['текста']
+
+#*************************************************************
+# Я можу шукати вибірку тільки в початку строки за допомогою ^
+pattern = r'^\w+'
+print('21 -->', re.findall(pattern, set_string, flags=re.IGNORECASE))
+# 21 --> ['Это']
+
+#*************************************************************
+# Пишу функцію валідації імейла
+cus_email_one = 'mail@mail.com'
+cus_email_two = 'kudlay@bank'
+cus_email_three = 'mail@google.com.ua'
+
+def validate_email(email):
+    return re.match(r'^.+@\w+\.[a-z]{2,6}$', email, re.IGNORECASE)
+'''
+^ - початок строки
+.+ - послідовність любих символів
+@ - знак @
+\w - буквенний або цифровий символ, або знак підкреслювання
+\. - символ ".", але маю заекранувати
+[a-z] - перелік можливих символів після "."
+{2,6} - довжина послідовності після "."
+'''
+print('22 -->', validate_email(cus_email_one))
+# 22 --> <re.Match object; span=(0, 13), match='mail@mail.com'>
+
+print('23 -->', validate_email(cus_email_two))
+# 23 --> None (відсутня частина .[a-z]{2,6}$  в кінці імейлу (.com))
+
+print('24 -->', validate_email(cus_email_three))
+# 24 --> None (лишня частина .com.ua)
+
+#*************************************************************
+# Для вирішення проблеми я згруповую частинку шаблону у місці після знаку @
+# і кажу що ця частина може бути відсутньою або повторюватись до 2-х разів за допомогою (\w+\.){0,2}
+
+def validate_email(email):
+    return re.match(r'^.+@(\w+\.){0,2}[a-z]{2,6}$', email, re.IGNORECASE)
+
+print('25 -->', validate_email(cus_email_one))
+# 25 --> <re.Match object; span=(0, 13), match='mail@mail.com'>
+
+print('26 -->', validate_email(cus_email_two))
+# 26 --> <re.Match object; span=(0, 11), match='kudlay@bank'>
+
+print('27 -->', validate_email(cus_email_three))
+# 27 --> <re.Match object; span=(0, 18), match='mail@google.com.ua'>
