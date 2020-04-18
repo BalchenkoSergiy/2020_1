@@ -5,7 +5,6 @@
 # https://docs.python.org/3/library/
 
 import os
-import random as r
 import random
 from random import randint, shuffle
 #from random import *
@@ -28,7 +27,8 @@ print('4 -->:', l)
 # [1, 2, 5, 4, 3] - случайно перемешаный список
 
 print('**************************************************************************************************************')
-import st_modules_2_libs
+from st_notes_less import st_modules_2_libs
+
 print('5 -->:', __name__)
 # __main__ - Имя текущего модуля
 
