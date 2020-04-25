@@ -60,7 +60,7 @@ my_button_6.pack()
 my_button_7 = Button(root, text='Моя кнопка 7 (Comic Sans MS)', command=clicked, font=('Comic Sans MS',  20))
 my_button_7.pack()
 
-# А також я можу використовувати не конструктор а іншим методом:
+# А також я можу використовувати не конструктор а інший методом:
 my_button_8 = Button(root, text='Моя кнопка 8 (configure)')
 my_button_8.configure(width=20, height=5)
 my_button_8['font'] = 'Arial 15'
