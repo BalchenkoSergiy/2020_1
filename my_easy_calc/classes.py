@@ -1,22 +1,26 @@
 class Calc:
+    result = 0
+
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.status = 'zero'
 
     def plus(self):
-        self.status = self.x + self.y
+        global result
+        self.result = self.x + self.y
         return self.x + self.y
 
     def minus(self):
-        self.status = self.x - self.y
+        global result
+        self.result = self.x - self.y
         return self.x - self.y
 
     def divided(self):
         while True:
             try:
+                global result
+                self.result = self.x / self.y
                 return self.x / self.y
-                self.status = self.x / self.y
             except:
                 print('You can`t divided on 0 (zero)!!!')
                 self.y = int(input('Try insert other number: '))
@@ -24,8 +28,10 @@ class Calc:
                 break
 
     def multiply(self):
-        self.status = self.x * self.y
+        global result
+        self.result = self.x * self.y
         return self.x * self.y
+
 
 def x():
     while True:
@@ -37,6 +43,7 @@ def x():
         else:
             break
 
+
 def y():
     while True:
         try:
@@ -46,3 +53,4 @@ def y():
             print('You must insert only integer')
         else:
             break
+
