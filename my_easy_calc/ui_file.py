@@ -1,6 +1,7 @@
-# Імпортую модуль tkinter
 from tkinter import *
 from tkinter import ttk
+from my_easy_calc.classes import Calc
+from my_easy_calc.logic import *
 
 # Створюю змінну яка буде об'єктом Tk()
 root = Tk()
@@ -8,8 +9,6 @@ root = Tk()
 # Підписую назву вікна (на подобі title в HTML)
 root.title('My first GUI app')
 
-# Змінюю логотип вікна
-root.iconbitmap('img\png5.ico')
 
 # Я можу управляти позицією вікна появлення то його розмірами
 # На подобі осі координат вказую параметри (Нульова точка у верхньому, лівому куті екрану)
@@ -17,47 +16,51 @@ root.iconbitmap('img\png5.ico')
 # 400 - розмір вікна по висоті
 # 3100 - відступ при появленні вікна з ліва
 # 150 - відступ при появленні вікна зверху
-root.geometry('600x400+3100+150')
+root.geometry('1000x800+500+150')
 
 # Я можу управляти можливістю змінювати розмір вікна користувачем:
 # Метод resizable дає можливість забороняти міняти (висоту, ширину) якщо поставити False у відповідному місці
-root.resizable(True, True)
+root.resizable(False, False)
 
 # Можу змінити фоновий коляр вікна
 root.config(bg='grey')
 
-# Створюю кнопку
-my_button = Button(root, text='Моя кнопка')
-
-# Розміщую віджет-кнопку у мому вікні із допомогою методу Pack
-my_button.pack()
-
-# Це саме можна зробити і у одній строці (Але бажано перший варіант використовувати):
-my_button_2 = Button(root, text='Моя кнопка 2').pack()
-
 # Для створення стилю кнопки я імпортую із бібліотеки tkinter модуль TTK
-# Тепер створюючи кнопку я використовую метод TTK:
-my_button_3 = ttk.Button(root, text='Моя кнопка 3')
-my_button_3.pack()
 
-# Створюю функцію яка просто щось виводить у консоль:
-def clicked():
-    print('Clicked')
+my_button_x = ttk.Button(root, text=f'{obj_class.x}')
+my_button_x.pack()
 
-# Тепер зв'язую функцію із кнопкою за допомогою параметру command
-my_button_4 = Button(root, text='Моя кнопка 4 (def clicked)', command=clicked)
-my_button_4.pack()
+my_button_y = ttk.Button(root, text=f'{obj_class.y}')
+my_button_y.pack()
+
+my_button_plus = ttk.Button(root, text=f' + ', command=obj_class.plus)
+my_button_plus.pack()
+
+my_button_minus = ttk.Button(root, text=f' - ', command=obj_class.minus)
+my_button_minus.pack()
+
+my_button_divided = ttk.Button(root, text=f' / ', command=obj_class.divided)
+my_button_divided.pack()
+
+my_button_multiply = ttk.Button(root, text=f' * ', command=obj_class.multiply)
+my_button_multiply.pack()
+
+my_button_result = ttk.Button(root, text=obj_class.status)
+my_button_result.pack()
+
+
+
 
 # Я можу керувати шрифтом тексту кнопки
-my_button_5 = Button(root, text='Моя кнопка 5 (font="Arial 20")', command=clicked, font='Arial 20')
+my_button_5 = Button(root, text='Моя кнопка 5 (font="Arial 20")',  font='Arial 20')
 my_button_5.pack()
 
 # Курсивний текст за допомогою шрифту italic
-my_button_6 = Button(root, text='Моя кнопка 6 (italic)', command=clicked, font='Arial 20 italic')
+my_button_6 = Button(root, text='Моя кнопка 6 (italic)',  font='Arial 20 italic')
 my_button_6.pack()
 
 # Якщо назва шрифта складається із декількох слів я цей параметр передаю у вигляді кортежу:
-my_button_7 = Button(root, text='Моя кнопка 7 (Comic Sans MS)', command=clicked, font=('Comic Sans MS',  20))
+my_button_7 = Button(root, text='Моя кнопка 7 (Comic Sans MS)', font=('Comic Sans MS',  20))
 my_button_7.pack()
 
 # А також я можу використовувати не конструктор а інший методом:
