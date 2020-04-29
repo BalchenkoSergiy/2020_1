@@ -31,10 +31,10 @@ root.config(bg='grey')
 root.title('My little calc')
 
 my_button_x = ttk.Button(root, text=f'{obj_class.x}')
-my_button_x.pack()
+my_button_x.pack(side='left')
 
 my_button_y = ttk.Button(root, text=f'{obj_class.y}')
-my_button_y.pack()
+my_button_y.pack(side='left')
 
 my_button_plus = ttk.Button(root, text=' + ', command=obj_class.plus)
 my_button_plus.pack()
@@ -48,13 +48,12 @@ my_button_divided.pack()
 my_button_multiply = ttk.Button(root, text=' * ', command=obj_class.multiply)
 my_button_multiply.pack()
 
-def counter():
-    my_button_result = ttk.Button(root, text=f'Result = {obj_class.result}')
-    my_button_result.pack()
+def change_text():
+    my_button_result['text'] = f'= {obj_class.result}'#= ttk.Button(root, text=f'Result = {obj_class.result}')
 
 
-btn_cnt = Button(root, text=" = ", command=counter)
-btn_cnt.pack()
+my_button_result = ttk.Button(root, text=" = ", command=change_text)
+my_button_result.pack()
 
 
 # Використовую метод mainloop() який запускає цикл відображення вікна.
