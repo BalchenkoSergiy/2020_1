@@ -1,6 +1,7 @@
 # Імпортую модуль tkinter
 from tkinter import *
 from tkinter import ttk
+import time
 
 # Створюю змінну яка буде об'єктом Tk()
 root = Tk()
@@ -9,7 +10,7 @@ root = Tk()
 root.title('My first GUI app')
 
 # Змінюю логотип вікна
-root.iconbitmap('img\png5.ico')
+# root.iconbitmap('img\png5.ico')
 
 # Я можу управляти позицією вікна появлення то його розмірами
 # На подобі осі координат вказую параметри (Нульова точка у верхньому, лівому куті екрану)
@@ -17,7 +18,7 @@ root.iconbitmap('img\png5.ico')
 # 400 - розмір вікна по висоті
 # 3100 - відступ при появленні вікна з ліва
 # 150 - відступ при появленні вікна зверху
-root.geometry('600x400+3100+150')
+root.geometry('800x600+3000+150')
 
 # Я можу управляти можливістю змінювати розмір вікна користувачем:
 # Метод resizable дає можливість забороняти міняти (висоту, ширину) якщо поставити False у відповідному місці
@@ -65,6 +66,18 @@ my_button_8 = Button(root, text='Моя кнопка 8 (configure)')
 my_button_8.configure(width=20, height=5)
 my_button_8['font'] = 'Arial 15'
 my_button_8.pack()
+
+# Створюю кнопку яка при нажатті показує поточний час. Для цього:
+# 1. Імпортую модуль Time
+# 2. Створюю функцію яка викликає поточний час та називає мою кнопку цими данними
+def check_time():
+    btn_time_9['text'] = time.strftime('%H:%M:%S')
+
+# 3. Прив'язую кнопку до функції:
+btn_time_9 = Button(root, text="Моя кнопка 9 (поточний час)", command=check_time)
+btn_time_9.pack()
+
+
 
 
 
