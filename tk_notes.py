@@ -77,9 +77,19 @@ def check_time():
 btn_time_9 = Button(root, text="Моя кнопка 9 (поточний час)", command=check_time)
 btn_time_9.pack()
 
+# Створюю кнопку яка рахує кількість кліків. Для цього:
+# 1. Стфорюю змінну яка буде лічильником:
+clicks = 0
 
+# 2. Створюю функцію яка додає до глобальної змінної +1 та називає результат вичислення у title вікна:
+def counter():
+    global clicks
+    clicks += 1
+    root.title(f'Total clicks = {clicks}')
 
-
+# 3. Створюю кнопку 10 при нажатті на яку викликається функція counter:
+btn_cnt = Button(root, text="Моя кнопка 10 (кількість кліків)", command=counter)
+btn_cnt.pack()
 
 # Використовую метод mainloop() який запускає цикл відображення вікна.
 root.mainloop()
