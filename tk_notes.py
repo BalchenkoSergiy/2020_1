@@ -27,19 +27,26 @@ root.resizable(True, True)
 # Можу змінити фоновий коляр вікна
 root.config(bg='grey')
 
+# Створюю напис у вікні використовуючи метод Label
+lab_text = Label(root, text=f'Тестовий текст у вікні\nякий буде відображатись по замовчуванню\n'
+                            f'і не підлягатиме редагуванню', bg='Grey', font=("Comic Sans MS", 10, "bold"))
+
+# Розміщую віджет-текс у мому вікні із допомогою методу Pack
+lab_text.pack()
+
 # Створюю кнопку
 my_button = Button(root, text='Моя кнопка')
 
 # Розміщую віджет-кнопку у мому вікні із допомогою методу Pack
-my_button.pack()
+my_button.pack(side=TOP)
 
 # Це саме можна зробити і у одній строці (Але бажано перший варіант використовувати):
-my_button_2 = Button(root, text='Моя кнопка 2').pack()
+my_button_2 = Button(root, text='Моя кнопка 2').pack(side=TOP)
 
 # Для створення стилю кнопки я імпортую із бібліотеки tkinter модуль TTK
 # Тепер створюючи кнопку я використовую метод TTK:
 my_button_3 = ttk.Button(root, text='Моя кнопка 3')
-my_button_3.pack()
+my_button_3.pack(side=TOP)
 
 # Створюю функцію яка просто щось виводить у консоль:
 def clicked():
@@ -47,25 +54,25 @@ def clicked():
 
 # Тепер зв'язую функцію із кнопкою за допомогою параметру command
 my_button_4 = Button(root, text='Моя кнопка 4 (def clicked)', command=clicked)
-my_button_4.pack()
+my_button_4.pack(side=TOP)
 
 # Я можу керувати шрифтом тексту кнопки
-my_button_5 = Button(root, text='Моя кнопка 5 (font="Arial 20")', command=clicked, font='Arial 20')
-my_button_5.pack()
+my_button_5 = Button(root, text='Моя кнопка 5 (font="Arial 8")', command=clicked, font='Arial 8')
+my_button_5.pack(side=TOP)
 
 # Курсивний текст за допомогою шрифту italic
-my_button_6 = Button(root, text='Моя кнопка 6 (italic)', command=clicked, font='Arial 20 italic')
-my_button_6.pack()
+my_button_6 = Button(root, text='Моя кнопка 6 (italic)', command=clicked, font='Arial 10 italic')
+my_button_6.pack(side=TOP)
 
 # Якщо назва шрифта складається із декількох слів я цей параметр передаю у вигляді кортежу:
-my_button_7 = Button(root, text='Моя кнопка 7 (Comic Sans MS)', command=clicked, font=('Comic Sans MS',  20))
-my_button_7.pack()
+my_button_7 = Button(root, text='Моя кнопка 7 (Comic Sans MS)', command=clicked, font=('Comic Sans MS',  10))
+my_button_7.pack(side=TOP)
 
 # А також я можу використовувати не конструктор а інший методом:
 my_button_8 = Button(root, text='Моя кнопка 8 (configure)')
-my_button_8.configure(width=20, height=5)
-my_button_8['font'] = 'Arial 15'
-my_button_8.pack()
+my_button_8.configure(width=20, height=0)
+my_button_8['font'] = 'Arial 10'
+my_button_8.pack(side=TOP)
 
 # Створюю кнопку яка при нажатті показує поточний час. Для цього:
 # 1. Імпортую модуль Time
@@ -75,7 +82,7 @@ def check_time():
 
 # 3. Прив'язую кнопку до функції:
 btn_time_9 = Button(root, text="Моя кнопка 9 (поточний час)", command=check_time)
-btn_time_9.pack()
+btn_time_9.pack(side=TOP)
 
 # Створюю кнопку яка рахує кількість кліків. Для цього:
 # 1. Стфорюю змінну яка буде лічильником:
@@ -89,7 +96,31 @@ def counter():
 
 # 3. Створюю кнопку 10 при нажатті на яку викликається функція counter:
 btn_cnt = Button(root, text="Моя кнопка 10 (кількість кліків)", command=counter)
-btn_cnt.pack()
+btn_cnt.pack(side=TOP)
+
+# activebackground - змінює коляр фону натиснутої кнопки
+my_button_11 = Button(root, text="Моя кнопка 11 (activebackground)", command=counter, activebackground='Green')
+my_button_11.pack(side=TOP)
+
+# activeforeground - змінює коляр тексту натиснутої кнопки
+my_button_12 = Button(root, text="Моя кнопка 12 (activebackground)", command=counter, activeforeground='Green')
+my_button_12.pack(side=TOP)
+
+# bd - змінює змінює ширину рамки кнопки (по замовчуванню = 2)
+my_button_13 = Button(root, text="Моя кнопка 13 (bd)", command=counter, bd=5)
+my_button_13.pack(side=TOP)
+
+# bg - встановлює коляр фону не нажатої кнопки
+my_button_14 = Button(root, text="Моя кнопка 14 (bg)", command=counter, bg='green')
+my_button_14.pack(side=TOP)
+
+# fg - встановлює коляр тексту не нажатої кнопки
+my_button_15 = Button(root, text="Моя кнопка 15 (fg)", command=counter, fg='green')
+my_button_15.pack(side=TOP)
+
+# fg - встановлює коляр тексту не нажатої кнопки active, disabled, or normal
+my_button_16 = Button(root, text=f"Моя кнопка 16\nNew_Row", command=counter, width=80, relief='ridge')
+my_button_16.pack(side=TOP)
 
 # Використовую метод mainloop() який запускає цикл відображення вікна.
 root.mainloop()
