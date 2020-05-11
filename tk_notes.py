@@ -28,8 +28,13 @@ root.resizable(True, True)
 root.config(bg='grey')
 
 # Створюю напис у вікні використовуючи метод Label
-lab_text = Label(root, text=f'Тестовий текст у вікні\nякий буде відображатись по замовчуванню\n'
-                            f'і не підлягатиме редагуванню', bg='Grey', font=("Comic Sans MS", 10, "bold"))
+lab_text = Label(root,
+                 text=f'Тестовий текст у вікні\nякий буде відображатись по замовчуванню\nі не підлягатиме редагуванню',
+                 bg='white',
+                 width='80',
+                 height='5',
+                 font=("Comic Sans MS", 10, "bold"),
+                 anchor='center')
 
 # Розміщую віджет-текс у мому вікні із допомогою методу Pack
 lab_text.pack()
