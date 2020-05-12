@@ -60,6 +60,13 @@ lab_text = Label(root,
 # Розміщую віджет-текс у мому вікні із допомогою методу Pack
 lab_text.pack()
 
+# Створюю текст (label) та поле для вводу за допомогою (Entry)
+l_test_text = Label(root, text='Insert something:')
+l_test_text.pack(side='left', anchor='nw')
+
+e_entry = Entry(root, bd=5)
+e_entry.pack(anchor='nw')
+
 # Створюю кнопку
 my_button = Button(root, text='Моя кнопка')
 
