@@ -1,4 +1,5 @@
 from tkinter import *
+from tk_test_entry import classes
 
 root = Tk()
 root.geometry('650x200+1000+300')
@@ -57,24 +58,4 @@ l_result = Label(frame_three, height=2, width=50, text='This place for result')
 l_result.pack(pady=10)
 
 
-
-
-
 root.mainloop()
-
-
-
-# entry_var_2 = Entry(root, bd=5)
-# entry_var_2.insert(0, 'Hello')
-# entry_var_2.insert(END, ' world')
-# entry_var_2.delete(2, 6)
-# entry_var_2.pack()
-
-# entry_var_3 = Entry(root, bd=5)
-# entry_var_3.insert(0, 'Hello')
-# entry_var_3.insert(END, ' world')
-# var_res = entry_var_3.get()
-# entry_var_3.pack()
-
-# print(var_res)
-
