@@ -6,44 +6,26 @@ root.title('My easy calc')
 root.geometry('650x200+1000+300')
 root['bg'] = 'grey'
 
+result = 0
 
 # Створюю функцію яка буде брати значення введених чисел і передавати їх у клас
-def logic():
-    global total_result
+def logic(option):
+    global result
     total_result = classes.Calc(e_first_num.get(), e_sec_num.get())
-    if param == '+':
+    if option == '+':
         result = total_result.plus()
-    if param == '-':
+    if option == '-':
         result = total_result.minus()
-    if param == '/':
+    if option == '/':
         result = total_result.divided()
-    if param == '*':
+    if option == '*':
         result = total_result.multiply()
-    l_result['text'] = f'{e_first_num.get()} {param} {e_sec_num.get()} = {result};'
+    result = [option, result]
 
 
-# Створюю функцію яка встановлює параметр знаку дії
-def set_plus():
-    global param
-    param = '+'
+def result_total():
+    l_result['text'] = f'{e_first_num.get()} {result[0]} {e_sec_num.get()} = {result[1]};'
 
-
-# Створюю функцію яка встановлює параметр знаку дії
-def set_minus():
-    global param
-    param = '-'
-
-
-# Створюю функцію яка встановлює параметр знаку дії
-def set_divided():
-    global param
-    param = '/'
-
-
-# Створюю функцію яка встановлює параметр знаку дії
-def set_multiply():
-    global param
-    param = '*'
 
 
 def del_all():
@@ -70,16 +52,16 @@ e_first_num.pack(side='left', anchor='nw')
 my_button_c = Button(frame_one, text='C', bg='green', command=del_all)
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=5, padx=2)
 
-my_button_plus = Button(frame_one, text='+', bg='green', command=set_plus)
+my_button_plus = Button(frame_one, text='+', bg='green', command=lambda: logic('+'))
 my_button_plus.pack(side=LEFT, anchor='nw', ipadx=5, padx=2)
 
-my_button_minus = Button(frame_one, text='-', bg='green', command=set_minus)
+my_button_minus = Button(frame_one, text='-', bg='green', command=lambda: logic('-'))
 my_button_minus.pack(side=LEFT, anchor='nw', ipadx=5, padx=2)
 
-my_button_multiply = Button(frame_one, text='*', bg='green', command=set_multiply)
+my_button_multiply = Button(frame_one, text='*', bg='green', command=lambda: logic('*'))
 my_button_multiply.pack(side=LEFT, anchor='nw', ipadx=5, padx=2)
 
-my_button_divide = Button(frame_one, text='/', bg='green', command=set_divided)
+my_button_divide = Button(frame_one, text='/', bg='green', command=lambda: logic('/'))
 my_button_divide.pack(side=LEFT, anchor='nw', ipadx=5, padx=2)
 
 
@@ -97,7 +79,7 @@ frame_two.pack()
 
 
 # Створюю кнопку =
-my_button = Button(frame_two, height=2, width=50, text='=', bg='red', command=logic)
+my_button = Button(frame_two, height=2, width=50, text='=', bg='red', command=result_total)
 my_button.pack(pady=20)
 
 
