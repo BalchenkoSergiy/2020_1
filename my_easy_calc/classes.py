@@ -8,7 +8,7 @@ class Calc:
     def plus(self):
         global result
         self.result = self.x + self.y
-        return self.x + self.y
+        return int(self.x) + int(self.y)
 
     def minus(self):
         global result
