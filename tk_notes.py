@@ -157,3 +157,7 @@ my_button_16.pack(side=TOP, anchor='nw')
 
 # Використовую метод mainloop() який запускає цикл відображення вікна.
 root.mainloop()
+
+
+
+

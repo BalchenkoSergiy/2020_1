@@ -6,7 +6,7 @@ root.title('My easy calc')
 root.geometry('650x200+1000+300')
 root['bg'] = 'grey'
 
-result = 0
+result = []
 total_result = None
 param = None
 opt = ''
@@ -19,30 +19,32 @@ def logic(option):
     try:
         first_number = int(e_first_num.get())
     except:
-        pass
+        l_result['text'] = 'Please insert only numbers'
+        first_number = 0
     try:
         second_number = int(e_sec_num.get())
     except:
-        pass
+        l_result['text'] = 'Please insert only numbers'
+        second_number = 0
     total_result = classes.Calc(first_number, second_number)
     if option == '+':
         opt = '+'
-        l_result['text'] = f'{e_first_num.get()} {option} {e_sec_num.get()}'
+        l_result['text'] = f'{first_number} {option} {second_number}'
         # checking_insert('+')
         result = total_result.plus()
     if option == '-':
         opt = '-'
-        l_result['text'] = f'{e_first_num.get()} {option} {e_sec_num.get()}'
+        l_result['text'] = f'{first_number} {option} {second_number}'
         result = total_result.minus()
     if option == '/':
         opt = '/'
-        l_result['text'] = f'{e_first_num.get()} {option} {e_sec_num.get()}'
+        l_result['text'] = f'{first_number} {option} {second_number}'
         result = total_result.divided()
     if option == '*':
         opt = '*'
-        l_result['text'] = f'{e_first_num.get()} {option} {e_sec_num.get()}'
+        l_result['text'] = f'{first_number} {option} {second_number}'
         result = total_result.multiply()
-    result = [opt, result, e_first_num.get(), e_sec_num.get()]
+    result = [opt, result, first_number, second_number]
 
 
 def checking_insert(option):
@@ -59,6 +61,8 @@ def del_all():
     e_first_num.delete(0, END)
     e_sec_num.delete(0, END)
     l_result['text'] = 'Insert your numbers please'
+
+
 
 
 # Створюю фрейм one
