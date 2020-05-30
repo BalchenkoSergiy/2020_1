@@ -3,29 +3,23 @@ symbol = ''
 
 
 def show_inserted(lable, symb, my_list):
-    global symbol
     if symb != '+' and symb != '-' and symb != '/' and symb != '*':
-        lable['text'] = f'{create_str(my_list, symb)}'
-    else:
-        symbol = symb
+        lable['text'] = f'{create_first_number(my_list, symb)}'
+    elif symb != '+' and symb != '-' and symb != '/' and symb != '*' and len(my_list) == 2:
+        lable['text'] = f'{create_second_number(my_list, symb)}'
     print(my_list)
     print(symbol)
 
 
-def create_str(my_list, symb):
+def create_first_number(my_list, symb):
+    #if len(my_list) > 0:
+    my_list.append(symb)
+    return my_list
+
+
+def create_second_number(my_list, symb):
     global symbol
-    if symbol == '':
-        if len(my_list) > 0:
-            my_list[0] = my_list[0] + symb
-        elif len(my_list) == 0:
-            my_list.append(symb)
-        return my_list[0]
-    else:
-        if len(my_list) > 1:
-            my_list[1] = my_list[1] + symb
-        elif len(my_list) == 1:
-            my_list.append(symb)
-        return my_list[1]
+    symbol = symb
 
 
 
