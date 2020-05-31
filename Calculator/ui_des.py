@@ -135,14 +135,14 @@ my_button_c = Button(frame_five,
                      text=',',
                      bg='white',
                      activebackground='green',
-                     command=lambda: functions.show_inserted(l_first_num, ',', functions.entry_list))
+                     command=lambda: functions.show_inserted(l_first_num, '.', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=11, padx=2, pady=2)
 
 my_button_c = Button(frame_five,
                      text='C',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: functions.clear_all(l_first_num, functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
 
 my_button_divide = Button(frame_five,
@@ -163,7 +163,7 @@ my_button = Button(frame_six,
                    text='=',
                    bg='red',
                    activebackground='green',
-                   command=None)
+                   command=lambda: functions.make_object(l_first_num, functions.entry_list))
 my_button.pack(padx=2, pady=2)
 
 
