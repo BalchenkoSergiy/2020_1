@@ -21,7 +21,7 @@ l_first_num.pack(anchor='nw',  ipady=4, padx=4, pady=4, fill='x')
 frame_two = Frame(root, bg='grey')
 frame_two.pack()
 
-# Створюю кнопки 7, 8, 9, +
+# Створюю кнопку 7
 my_button_c = Button(frame_two,
                      text='7',
                      bg='white',
@@ -29,6 +29,7 @@ my_button_c = Button(frame_two,
                      command=lambda: functions.show_inserted(l_first_num, '7', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 8
 my_button_c = Button(frame_two,
                      text='8',
                      bg='white',
@@ -36,6 +37,7 @@ my_button_c = Button(frame_two,
                      command=lambda: functions.show_inserted(l_first_num, '8', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 9
 my_button_c = Button(frame_two,
                      text='9',
                      bg='white',
@@ -55,7 +57,7 @@ my_button_plus.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
 frame_three = Frame(root, bg='grey')
 frame_three.pack()
 
-# Створюю кнопки 4, 5, 6, -
+# Створюю кнопку 4
 my_button_c = Button(frame_three,
                      text='4',
                      bg='white',
@@ -63,6 +65,7 @@ my_button_c = Button(frame_three,
                      command=lambda: functions.show_inserted(l_first_num, '4', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 5
 my_button_c = Button(frame_three,
                      text='5',
                      bg='white',
@@ -70,6 +73,7 @@ my_button_c = Button(frame_three,
                      command=lambda: functions.show_inserted(l_first_num, '5', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 6
 my_button_c = Button(frame_three,
                      text='6',
                      bg='white',
@@ -77,6 +81,7 @@ my_button_c = Button(frame_three,
                      command=lambda: functions.show_inserted(l_first_num, '6', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку -
 my_button_minus = Button(frame_three,
                          text='-',
                          bg='white',
@@ -89,7 +94,7 @@ my_button_minus.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 frame_fore = Frame(root, bg='grey')
 frame_fore.pack()
 
-# Створюю кнопки 1, 2, 3, *
+# Створюю кнопку 1
 my_button_c = Button(frame_fore,
                      text='1',
                      bg='white',
@@ -97,6 +102,7 @@ my_button_c = Button(frame_fore,
                      command=lambda: functions.show_inserted(l_first_num, '1', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 2
 my_button_c = Button(frame_fore,
                      text='2',
                      bg='white',
@@ -104,6 +110,7 @@ my_button_c = Button(frame_fore,
                      command=lambda: functions.show_inserted(l_first_num, '2', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку 3
 my_button_c = Button(frame_fore,
                      text='3',
                      bg='white',
@@ -111,6 +118,7 @@ my_button_c = Button(frame_fore,
                      command=lambda: functions.show_inserted(l_first_num, '3', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку *
 my_button_multiply = Button(frame_fore,
                             text='*',
                             bg='white',
@@ -123,7 +131,7 @@ my_button_multiply.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 frame_five = Frame(root, bg='grey')
 frame_five.pack()
 
-# Створюю кнопки 0, ',', C, /
+# Створюю кнопку 0
 my_button_c = Button(frame_five,
                      text='0',
                      bg='white',
@@ -131,6 +139,7 @@ my_button_c = Button(frame_five,
                      command=lambda: functions.show_inserted(l_first_num, '0', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
+# Створюю кнопку ','
 my_button_c = Button(frame_five,
                      text=',',
                      bg='white',
@@ -138,6 +147,7 @@ my_button_c = Button(frame_five,
                      command=lambda: functions.show_inserted(l_first_num, '.', functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=11, padx=2, pady=2)
 
+# Створюю кнопку C
 my_button_c = Button(frame_five,
                      text='C',
                      bg='white',
@@ -145,6 +155,7 @@ my_button_c = Button(frame_five,
                      command=lambda: functions.clear_all(l_first_num, functions.entry_list))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
 
+# Створюю кнопку /
 my_button_divide = Button(frame_five,
                           text='/',
                           bg='white',
