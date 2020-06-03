@@ -1,5 +1,6 @@
 from tkinter import *
-from Calculator import functions
+from Calculator.functions import *
+
 
 root = Tk()
 root.title('Calculator')
@@ -26,7 +27,7 @@ my_button_c = Button(frame_two,
                      text='7',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '7'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 8
@@ -34,7 +35,7 @@ my_button_c = Button(frame_two,
                      text='8',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '8'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 9
@@ -42,14 +43,14 @@ my_button_c = Button(frame_two,
                      text='9',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '9'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 my_button_plus = Button(frame_two,
                         text='+',
                         bg='white',
                         activebackground='green',
-                        command=None)
+                        command=lambda: create_object(l_first_num, '+'))
 my_button_plus.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
 
 
@@ -62,7 +63,7 @@ my_button_c = Button(frame_three,
                      text='4',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '4'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 5
@@ -70,7 +71,7 @@ my_button_c = Button(frame_three,
                      text='5',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '5'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 6
@@ -78,7 +79,7 @@ my_button_c = Button(frame_three,
                      text='6',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '6'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку -
@@ -86,7 +87,7 @@ my_button_minus = Button(frame_three,
                          text='-',
                          bg='white',
                          activebackground='green',
-                         command=None)
+                         command=lambda: create_object(l_first_num, '-'))
 my_button_minus.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 
@@ -99,7 +100,7 @@ my_button_c = Button(frame_fore,
                      text='1',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '1'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 2
@@ -107,7 +108,7 @@ my_button_c = Button(frame_fore,
                      text='2',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '2'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку 3
@@ -115,7 +116,7 @@ my_button_c = Button(frame_fore,
                      text='3',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '3'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку *
@@ -123,7 +124,7 @@ my_button_multiply = Button(frame_fore,
                             text='*',
                             bg='white',
                             activebackground='green',
-                            command=None)
+                            command=lambda: create_object(l_first_num, '*'))
 my_button_multiply.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 
@@ -136,7 +137,7 @@ my_button_c = Button(frame_five,
                      text='0',
                      bg='white',
                      activebackground='green',
-                     command= lambda : functions.create_object(l_first_num, '0'))
+                     command=lambda: create_object(l_first_num, '0'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку ','
@@ -144,7 +145,7 @@ my_button_c = Button(frame_five,
                      text=',',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, '.'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=11, padx=2, pady=2)
 
 # Створюю кнопку C
@@ -160,7 +161,7 @@ my_button_divide = Button(frame_five,
                           text='/',
                           bg='white',
                           activebackground='green',
-                          command=None)
+                          command=lambda: create_object(l_first_num, '/'))
 my_button_divide.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 
