@@ -4,22 +4,30 @@ class Calc:
         self.second_number = second_number
         self.operator = operator
         self.label = label
+        self.calculate_input()
 
 
-    def calculate_input(self, input):
-        pass
+    def calculate_input(self):
+        if self.operator == '+':
+            self.label['text'] = self.plus()
+        elif self.operator == '-':
+            self.label['text'] = self.minus()
+        elif self.operator == '/':
+            self.label['text'] = self.divided()
+        elif self.operator == '*':
+            self.label['text'] = self.multiply()
 
     def plus(self):
-        return float(self.first) + float(self.second)
+        return self.first_number + self.second_number
 
     def minus(self):
-        return float(self.first) - float(self.second)
+        return self.first_number - self.second_number
 
     def divided(self):
-        if self.symbol == '/' and int(self.second) == 0:
-            return 0
-        return float(self.first) / float(self.second)
+        if int(self.second_number) == 0:
+            return 'Oooops! Can`t be ZERO!'
+        return self.first_number / self.second_number
 
     def multiply(self):
-        return float(self.first) * float(self.second)
+        return self.first_number * self.second_number
 

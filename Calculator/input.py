@@ -48,8 +48,8 @@ class Input:
 		label['text'] = ''.join(map(str, self.symbols_list))
 
 	def create_numbers_and_operator(self, list):
-		self.first_number = list[0]
-		self.second_number = list[1]
+		self.first_number = float(list[0])
+		self.second_number = float(list[1])
 		self.operator = list[2]
 
 	def clear_all(self, label):
