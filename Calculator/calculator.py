@@ -1,9 +1,6 @@
 class Calc:
     def __init__(self, input):
         self.input = input
-        # self.first = first
-        # self.second = second
-        # self.symbol = symbol
 
     def making_list(self, symbol):
         result = list(symbol)

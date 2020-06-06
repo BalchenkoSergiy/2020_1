@@ -153,7 +153,7 @@ my_button_c = Button(frame_five,
                      text='C',
                      bg='white',
                      activebackground='green',
-                     command=None)
+                     command=lambda: create_object(l_first_num, 'C'))
 my_button_c.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
 
 # Створюю кнопку /
@@ -175,7 +175,7 @@ my_button = Button(frame_six,
                    text='=',
                    bg='red',
                    activebackground='green',
-                   command=None)
+                   command=lambda: create_object(l_first_num, '='))
 my_button.pack(padx=2, pady=2)
 
 
