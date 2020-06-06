@@ -6,7 +6,6 @@ class Calc:
         self.label = label
         self.calculate_input()
 
-
     def calculate_input(self):
         if self.operator == '+':
             self.label['text'] = self.plus()
