@@ -1,3 +1,5 @@
+from Calculator.calculator import *
+
 class Input:
 	symbols_list = []
 
@@ -14,7 +16,9 @@ class Input:
 			self.join_str_in_list()
 			self.split_str()
 			self.create_numbers_and_operator(self.symbols_list)
-			label['text'] = self.first_number + self.operator + self.second_number
+			result = Calc(label, self.first_number, self.second_number, self.operator)
+
+
 		print(self.symbols_list, type(self.symbols_list))
 
 	def adding_symbol_to_symbol_list(self):

@@ -1,27 +1,13 @@
 class Calc:
-    def __init__(self, input):
-        self.input = input
+    def __init__(self, label, first_number, second_number, operator):
+        self.first_number = first_number
+        self.second_number = second_number
+        self.operator = operator
+        self.label = label
 
-    def making_list(self, symbol):
-        result = list(symbol)
-        return result
 
     def calculate_input(self, input):
-        if len(input) == 3:
-            result = calculator.Calc(my_list)
-            if my_list[1] == '+':
-                label['text'] = f'{result.plus()}'
-                return result
-            elif my_list[1] == '-':
-                label['text'] = f'{result.minus()}'
-                return result
-            elif my_list[1] == '/':
-                if check_zero(label, my_list) != 0:
-                    label['text'] = f'{result.divided()}'
-                    return result
-            elif my_list[1] == '*':
-                label['text'] = f'{result.multiply()}'
-                return result
+        pass
 
     def plus(self):
         return float(self.first) + float(self.second)
