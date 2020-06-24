@@ -154,7 +154,7 @@ my_button_c = Button(frame_five,
                      bg='white',
                      activebackground='green',
                      command=lambda: create_object(l_first_num, 'C'))
-my_button_c.pack(side=LEFT, anchor='nw', ipadx=9, padx=2, pady=2)
+my_button_c.pack(side=LEFT, anchor='nw', ipadx=10, padx=2, pady=2)
 
 # Створюю кнопку /
 my_button_divide = Button(frame_five,
