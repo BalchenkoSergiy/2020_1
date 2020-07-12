@@ -4,7 +4,7 @@ from Calculator.functions import *
 
 root = Tk()
 root.title('Calculator')
-root.geometry('180x195+1000+300')
+root.geometry('180x195+2800+300')
 root['bg'] = 'grey'
 
 

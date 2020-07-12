@@ -68,3 +68,5 @@ class Input:
 		for i in list:
 			if i in self.symbols_list:
 				return True
+
+
