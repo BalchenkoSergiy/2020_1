@@ -4,24 +4,24 @@ root = Tk()
 root.geometry('600x400+1000+300')
 
 
-frame_top = Frame(root)
-frame_top.pack()
+frame_top = LabelFrame(root, text="frame_top", padx=10, pady=10)
+frame_top.pack(pady=10)
 
 label_one = Label(frame_top, text='ONE', font='15', fg='#fff', bg='#3498db', width=8, height=4)
 label_one.pack(side=LEFT)
 
-label_one = Label(frame_top, text='TWO', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
-label_one.pack(side=LEFT)
+label_two = Label(frame_top, text='TWO', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
+label_two.pack(side=LEFT)
 
 
-frame_bottom = Frame(root)
-frame_bottom.pack()
+frame_bottom = LabelFrame(root, text="frame_bottom", padx=10, pady=10)
+frame_bottom.pack(pady=10)
 
-label_one = Label(frame_bottom, text='THREE', font='15', fg='#fff', bg='#f1c40f', width=8, height=4)
-label_one.pack(side=LEFT)
+label_THREE = Label(frame_bottom, text='THREE', font='15', fg='#fff', bg='#f1c40f', width=8, height=4)
+label_THREE.pack(side=LEFT)
 
-label_one = Label(frame_bottom, text='FOUR', font='15', fg='#fff', bg='#34495e', width=8, height=4)
-label_one.pack(side=LEFT)
+label_FOUR = Label(frame_bottom, text='FOUR', font='15', fg='#fff', bg='#34495e', width=8, height=4)
+label_FOUR.pack(side=LEFT)
 
 
 
