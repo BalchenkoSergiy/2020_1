@@ -7,11 +7,23 @@ root.geometry('600x400+1000+300')
 frame_top = LabelFrame(root, text="frame_top", padx=10, pady=10)
 frame_top.grid()
 
-button_one = Button(frame_top, text='ONE', font='15', fg='#fff', bg='#3498db', width=8, height=4)
+button_one = Button(frame_top, text='1', font='15', fg='#fff', bg='#3498db', width=8, height=4)
 button_one.grid(column=0, row=1)
 
-button_two = Button(frame_top, text='TWO', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
+button_two = Button(frame_top, text='2', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
 button_two.grid(column=1, row=1)
+
+button_onetwo = Button(frame_top, text='3', font='15', fg='#fff', bg='#3498db', width=8, height=4)
+button_onetwo.grid(column=2, row=1)
+
+button_twoone = Button(frame_top, text='4', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
+button_twoone.grid(column=0, row=2)
+
+button_twotwo = Button(frame_top, text='5', font='15', fg='#fff', bg='#3498db', width=8, height=4)
+button_twotwo.grid(column=1, row=2)
+
+button_two_one = Button(frame_top, text='6', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
+button_two_one.grid(column=2, row=2)
 
 
 frame_bottom = LabelFrame(root, text="frame_bottom", padx=10, pady=10)
