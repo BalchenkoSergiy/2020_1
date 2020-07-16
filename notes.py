@@ -49,26 +49,36 @@ root.geometry('600x400+1000+300')
 # label_one = Label(root, text="1", font="15", fg="#fff", bg="#3498db", width=8, height=4).pack(expand=1, anchor=NE)
 # -----------------------------------------------------------------------------------------------------
 
-f = Frame(root)
-f.pack(pady=10)
+# f = Frame(root)
+# f.pack(pady=10)
+#
+# btn_list = [
+#     '7', '8', '9',
+#     '4', '5', '6',
+#     '1', '2', '3',
+#     '0']
+#
+# row = 0
+# column = 0
+#
+# for i in btn_list:
+#     if i == '0':
+#         Button(f, text=i, padx=10, pady=5).grid(row=row, columnspan=3)
+#     else:
+#         Button(f, text=i, padx=10, pady=5).grid(row=row, column=column)
+#     column += 1
+#     if column == 3:
+#         column = 0
+#         row += 1
+# Форма реєстрації -----------------------------------------------------------------------------
+l_user = Label(root, text="Login:").grid(row=0, column=0, padx=10, pady=10, sticky=W)
+e_user = Entry(root).grid(row=0, column=1, columnspan=2, padx=10, sticky=W+E)
 
-btn_list = [
-    '7', '8', '9',
-    '4', '5', '6',
-    '1', '2', '3',
-    '0']
+l_pass = Label(root, text="Password:").grid(row=1, column=0, padx=10, sticky=W)
+e_pass = Entry(root, show='*').grid(row=1, column=1, columnspan=2, padx=10, sticky=W+E)
 
-row = 0
-column = 0
-
-for i in btn_list:
-    if i == '0':
-        Button(f, text=i, padx=10, pady=5).grid(row=row, columnspan=3)
-    else:
-        Button(f, text=i, padx=10, pady=5).grid(row=row, column=column)
-    column += 1
-    if column == 3:
-        column = 0
-        row += 1
+btn_login = Button(root, text="Вхід", padx=5).grid(row=2, column=0, padx=10, pady=10, sticky=W)
+btn_reg = Button(root, text="Реєистрація", padx=5).grid(row=2, column=1)
+btn_forgot = Button(root, text="Забули пароль?", padx=5).grid(row=2, column=2, padx=10)
 
 root.mainloop()
