@@ -5,17 +5,17 @@ root.geometry('600x400+1000+300')
 
 
 frame_top = LabelFrame(root, text="frame_top", padx=10, pady=10)
-frame_top.pack(pady=10)
+frame_top.grid()
 
-label_one = Label(frame_top, text='ONE', font='15', fg='#fff', bg='#3498db', width=8, height=4)
-label_one.pack(side=LEFT)
+button_one = Button(frame_top, text='ONE', font='15', fg='#fff', bg='#3498db', width=8, height=4)
+button_one.grid(column=0, row=1)
 
-label_two = Label(frame_top, text='TWO', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
-label_two.pack(side=LEFT)
+button_two = Button(frame_top, text='TWO', font='15', fg='#fff', bg='#2ecc71', width=8, height=4)
+button_two.grid(column=1, row=1)
 
 
 frame_bottom = LabelFrame(root, text="frame_bottom", padx=10, pady=10)
-frame_bottom.pack(pady=10)
+frame_bottom.grid(pady=10)
 
 label_THREE = Label(frame_bottom, text='THREE', font='15', fg='#fff', bg='#f1c40f', width=8, height=4)
 label_THREE.pack(side=LEFT)
