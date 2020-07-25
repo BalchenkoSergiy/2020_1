@@ -82,10 +82,10 @@ root.geometry('600x400+1000+300')
 #btn_forgot = Button(root, text="Забули пароль?", padx=5).grid(row=2, column=2, padx=10)
 
 #Метод place()
-from tkinter import *
-
-root = Tk()
-root.geometry('400x400+1000+300')
+#from tkinter import *
+#
+#root = Tk()
+#root.geometry('400x400+1000+300')
 
 
 # l1 = Label(root, text="Hello world!", bg="#3498db", fg="#fff", font="16", padx=20, pady=8)
