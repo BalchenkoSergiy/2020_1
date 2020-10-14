@@ -1,4 +1,4 @@
-from Calculator.calculator import *
+from Old_folder.Calculator.calculator import *
 
 
 class Input:

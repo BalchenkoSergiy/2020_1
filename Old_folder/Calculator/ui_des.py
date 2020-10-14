@@ -1,5 +1,5 @@
 from tkinter import *
-from Calculator.functions import *
+from Old_folder.Calculator.functions import *
 
 
 root = Tk()
