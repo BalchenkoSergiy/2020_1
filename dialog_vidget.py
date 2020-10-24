@@ -1,5 +1,7 @@
 from tkinter import *
+# Модуль для вывода всплывающих информационных окон
 from tkinter import messagebox
+# Модуль для открытия диалоговых окон
 from tkinter import filedialog
 
 root = Tk()
